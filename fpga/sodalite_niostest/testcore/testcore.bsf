@@ -1,0 +1,179 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 320 472)
+	(text "testcore" (rect 137 -1 168 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 456 20 468)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk100_clk" (rect 0 0 40 12)(font "Arial" (font_size 8)))
+		(text "clk100_clk" (rect 4 61 64 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 128 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 101 82 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 128 112)(line_width 1))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "clk40_clk" (rect 0 0 37 12)(font "Arial" (font_size 8)))
+		(text "clk40_clk" (rect 4 221 58 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 128 232)(line_width 1))
+	)
+	(port
+		(pt 0 440)
+		(input)
+		(text "adc_pll_locked_export" (rect 0 0 88 12)(font "Arial" (font_size 8)))
+		(text "adc_pll_locked_export" (rect 4 429 130 440)(font "Arial" (font_size 8)))
+		(line (pt 0 440)(pt 128 440)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "led_export" (rect 0 0 41 12)(font "Arial" (font_size 8)))
+		(text "led_export" (rect 4 141 64 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 128 152)(line_width 1))
+	)
+	(port
+		(pt 0 272)
+		(output)
+		(text "sdr_addr[12..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
+		(text "sdr_addr[12..0]" (rect 4 261 94 272)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 128 272)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(output)
+		(text "sdr_ba[1..0]" (rect 0 0 47 12)(font "Arial" (font_size 8)))
+		(text "sdr_ba[1..0]" (rect 4 277 76 288)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 128 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(output)
+		(text "sdr_cas_n" (rect 0 0 43 12)(font "Arial" (font_size 8)))
+		(text "sdr_cas_n" (rect 4 293 58 304)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 128 304)(line_width 1))
+	)
+	(port
+		(pt 0 320)
+		(output)
+		(text "sdr_cke" (rect 0 0 33 12)(font "Arial" (font_size 8)))
+		(text "sdr_cke" (rect 4 309 46 320)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 128 320)(line_width 1))
+	)
+	(port
+		(pt 0 336)
+		(output)
+		(text "sdr_cs_n" (rect 0 0 38 12)(font "Arial" (font_size 8)))
+		(text "sdr_cs_n" (rect 4 325 52 336)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 128 336)(line_width 1))
+	)
+	(port
+		(pt 0 368)
+		(output)
+		(text "sdr_dqm[1..0]" (rect 0 0 55 12)(font "Arial" (font_size 8)))
+		(text "sdr_dqm[1..0]" (rect 4 357 82 368)(font "Arial" (font_size 8)))
+		(line (pt 0 368)(pt 128 368)(line_width 3))
+	)
+	(port
+		(pt 0 384)
+		(output)
+		(text "sdr_ras_n" (rect 0 0 42 12)(font "Arial" (font_size 8)))
+		(text "sdr_ras_n" (rect 4 373 58 384)(font "Arial" (font_size 8)))
+		(line (pt 0 384)(pt 128 384)(line_width 1))
+	)
+	(port
+		(pt 0 400)
+		(output)
+		(text "sdr_we_n" (rect 0 0 40 12)(font "Arial" (font_size 8)))
+		(text "sdr_we_n" (rect 4 389 52 400)(font "Arial" (font_size 8)))
+		(line (pt 0 400)(pt 128 400)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(bidir)
+		(text "gpio_export[27..0]" (rect 0 0 70 12)(font "Arial" (font_size 8)))
+		(text "gpio_export[27..0]" (rect 4 181 112 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 128 192)(line_width 3))
+	)
+	(port
+		(pt 0 352)
+		(bidir)
+		(text "sdr_dq[15..0]" (rect 0 0 51 12)(font "Arial" (font_size 8)))
+		(text "sdr_dq[15..0]" (rect 4 341 82 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 128 352)(line_width 3))
+	)
+	(drawing
+		(text "clk100" (rect 94 43 224 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 133 67 284 144)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 99 83 228 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 133 107 308 224)(font "Arial" (color 0 0 0)))
+		(text "led" (rect 112 123 242 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 147 302 304)(font "Arial" (color 0 0 0)))
+		(text "gpio" (rect 105 163 234 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 187 302 384)(font "Arial" (color 0 0 0)))
+		(text "clk40" (rect 99 203 228 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 133 227 284 464)(font "Arial" (color 0 0 0)))
+		(text "sdr" (rect 110 243 238 499)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "addr" (rect 133 267 290 544)(font "Arial" (color 0 0 0)))
+		(text "ba" (rect 133 283 278 576)(font "Arial" (color 0 0 0)))
+		(text "cas_n" (rect 133 299 296 608)(font "Arial" (color 0 0 0)))
+		(text "cke" (rect 133 315 284 640)(font "Arial" (color 0 0 0)))
+		(text "cs_n" (rect 133 331 290 672)(font "Arial" (color 0 0 0)))
+		(text "dq" (rect 133 347 278 704)(font "Arial" (color 0 0 0)))
+		(text "dqm" (rect 133 363 284 736)(font "Arial" (color 0 0 0)))
+		(text "ras_n" (rect 133 379 296 768)(font "Arial" (color 0 0 0)))
+		(text "we_n" (rect 133 395 290 800)(font "Arial" (color 0 0 0)))
+		(text "adc_pll_locked" (rect 43 411 170 835)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 435 302 880)(font "Arial" (color 0 0 0)))
+		(text " testcore " (rect 282 456 624 922)(font "Arial" ))
+		(line (pt 128 32)(pt 192 32)(line_width 1))
+		(line (pt 192 32)(pt 192 456)(line_width 1))
+		(line (pt 128 456)(pt 192 456)(line_width 1))
+		(line (pt 128 32)(pt 128 456)(line_width 1))
+		(line (pt 129 52)(pt 129 76)(line_width 1))
+		(line (pt 130 52)(pt 130 76)(line_width 1))
+		(line (pt 129 92)(pt 129 116)(line_width 1))
+		(line (pt 130 92)(pt 130 116)(line_width 1))
+		(line (pt 129 132)(pt 129 156)(line_width 1))
+		(line (pt 130 132)(pt 130 156)(line_width 1))
+		(line (pt 129 172)(pt 129 196)(line_width 1))
+		(line (pt 130 172)(pt 130 196)(line_width 1))
+		(line (pt 129 212)(pt 129 236)(line_width 1))
+		(line (pt 130 212)(pt 130 236)(line_width 1))
+		(line (pt 129 252)(pt 129 404)(line_width 1))
+		(line (pt 130 252)(pt 130 404)(line_width 1))
+		(line (pt 129 420)(pt 129 444)(line_width 1))
+		(line (pt 130 420)(pt 130 444)(line_width 1))
+		(line (pt 0 0)(pt 320 0)(line_width 1))
+		(line (pt 320 0)(pt 320 472)(line_width 1))
+		(line (pt 0 472)(pt 320 472)(line_width 1))
+		(line (pt 0 0)(pt 0 472)(line_width 1))
+	)
+)

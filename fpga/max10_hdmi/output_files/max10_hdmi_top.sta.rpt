@@ -1,0 +1,731 @@
+TimeQuest Timing Analyzer report for max10_hdmi_top
+Sat Nov 15 23:23:38 2014
+Quartus II 64-Bit Version 14.0.2 Build 209 09/17/2014 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. SDC File List
+  5. Clocks
+  6. Slow 1200mV 85C Model Fmax Summary
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Clock to Output Times
+ 13. Minimum Clock to Output Times
+ 14. Slow 1200mV 0C Model Fmax Summary
+ 15. Slow 1200mV 0C Model Setup Summary
+ 16. Slow 1200mV 0C Model Hold Summary
+ 17. Slow 1200mV 0C Model Recovery Summary
+ 18. Slow 1200mV 0C Model Removal Summary
+ 19. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 20. Clock to Output Times
+ 21. Minimum Clock to Output Times
+ 22. Fast 1200mV 0C Model Setup Summary
+ 23. Fast 1200mV 0C Model Hold Summary
+ 24. Fast 1200mV 0C Model Recovery Summary
+ 25. Fast 1200mV 0C Model Removal Summary
+ 26. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 27. Clock to Output Times
+ 28. Minimum Clock to Output Times
+ 29. Multicorner Timing Analysis Summary
+ 30. Clock to Output Times
+ 31. Minimum Clock to Output Times
+ 32. Board Trace Model Assignments
+ 33. Input Transition Times
+ 34. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 35. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 36. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 37. Setup Transfers
+ 38. Hold Transfers
+ 39. Report TCCS
+ 40. Report RSKM
+ 41. Unconstrained Paths
+ 42. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                       ;
++--------------------+----------------------------------------------------+
+; Quartus II Version ; Version 14.0.2 Build 209 09/17/2014 SJ Web Edition ;
+; Revision Name      ; max10_hdmi_top                                     ;
+; Device Family      ; MAX 10 FPGA                                        ;
+; Device Name        ; 10M08SAE144C8GES                                   ;
+; Timing Models      ; Advance                                            ;
+; Delay Model        ; Combined                                           ;
+; Rise/Fall Delays   ; Enabled                                            ;
++--------------------+----------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ; < 0.1%      ;
+;     Processors 5-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------------+
+; SDC File List                                          ;
++--------------------+--------+--------------------------+
+; SDC File Path      ; Status ; Read at                  ;
++--------------------+--------+--------------------------+
+; max10_hdmi_top.sdc ; OK     ; Sat Nov 15 23:23:37 2014 ;
++--------------------+--------+--------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                                                                                                                                                                                 ;
++-------------------------------------------------------------+-----------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+----------+---------------------------------------------------------------+-----------------------------------------------------------------+
+; Clock Name                                                  ; Type      ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master   ; Source                                                        ; Targets                                                         ;
++-------------------------------------------------------------+-----------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+----------+---------------------------------------------------------------+-----------------------------------------------------------------+
+; CLOCK_74                                                    ; Base      ; 13.468 ; 74.25 MHz  ; 0.000 ; 6.734 ;            ;           ;             ;       ;        ;           ;            ;          ;          ;                                                               ; { CLOCK_74 }                                                    ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; Generated ; 13.468 ; 74.25 MHz  ; 0.000 ; 6.734 ; 50.00      ; 1         ; 1           ;       ;        ;           ;            ; false    ; CLOCK_74 ; hdvideopll_inst|altpll_component|auto_generated|pll1|inclk[0] ; { hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] } ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; Generated ; 2.693  ; 371.33 MHz ; 0.000 ; 1.346 ; 50.00      ; 1         ; 5           ;       ;        ;           ;            ; false    ; CLOCK_74 ; hdvideopll_inst|altpll_component|auto_generated|pll1|inclk[0] ; { hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] } ;
++-------------------------------------------------------------+-----------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+----------+---------------------------------------------------------------+-----------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Fmax Summary                                                                ;
++------------+-----------------+-------------------------------------------------------------+------+
+; Fmax       ; Restricted Fmax ; Clock Name                                                  ; Note ;
++------------+-----------------+-------------------------------------------------------------+------+
+; 96.65 MHz  ; 96.65 MHz       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ;      ;
+; 428.08 MHz ; 428.08 MHz      ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;      ;
++------------+-----------------+-------------------------------------------------------------+------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++-------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Setup Summary                                                 ;
++-------------------------------------------------------------+-------+---------------+
+; Clock                                                       ; Slack ; End Point TNS ;
++-------------------------------------------------------------+-------+---------------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 0.357 ; 0.000         ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 3.121 ; 0.000         ;
++-------------------------------------------------------------+-------+---------------+
+
+
++-------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Hold Summary                                                  ;
++-------------------------------------------------------------+-------+---------------+
+; Clock                                                       ; Slack ; End Point TNS ;
++-------------------------------------------------------------+-------+---------------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 0.374 ; 0.000         ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 0.459 ; 0.000         ;
++-------------------------------------------------------------+-------+---------------+
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Minimum Pulse Width Summary                                   ;
++-------------------------------------------------------------+-------+---------------+
+; Clock                                                       ; Slack ; End Point TNS ;
++-------------------------------------------------------------+-------+---------------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 0.693 ; 0.000         ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 6.460 ; 0.000         ;
+; CLOCK_74                                                    ; 6.599 ; 0.000         ;
++-------------------------------------------------------------+-------+---------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Clock to Output Times                                                                                                ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference                                             ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; TMDS_CLOCK_N ; CLOCK_74   ; 3.751 ; 3.728 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 3.751 ; 3.728 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 3.749 ; 3.726 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 3.749 ; 3.726 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 3.746 ; 3.723 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 3.746 ; 3.723 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 3.746 ; 3.723 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 3.750 ; 3.727 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_N ; CLOCK_74   ; 3.736 ; 3.720 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 3.736 ; 3.720 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 3.735 ; 3.719 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 3.735 ; 3.719 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 3.731 ; 3.715 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 3.731 ; 3.715 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 3.731 ; 3.715 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 3.736 ; 3.720 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                                                        ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference                                             ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; TMDS_CLOCK_N ; CLOCK_74   ; 3.223 ; 3.212 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 3.223 ; 3.212 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 3.221 ; 3.210 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 3.221 ; 3.210 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 3.218 ; 3.207 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 3.218 ; 3.207 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 3.218 ; 3.207 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 3.222 ; 3.211 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_N ; CLOCK_74   ; 3.214 ; 3.189 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 3.214 ; 3.189 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 3.212 ; 3.187 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 3.212 ; 3.187 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 3.209 ; 3.184 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 3.209 ; 3.184 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 3.209 ; 3.184 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 3.213 ; 3.188 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Fmax Summary                                                                 ;
++------------+-----------------+-------------------------------------------------------------+------+
+; Fmax       ; Restricted Fmax ; Clock Name                                                  ; Note ;
++------------+-----------------+-------------------------------------------------------------+------+
+; 105.64 MHz ; 105.64 MHz      ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ;      ;
+; 463.39 MHz ; 463.39 MHz      ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;      ;
++------------+-----------------+-------------------------------------------------------------+------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++-------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Setup Summary                                                  ;
++-------------------------------------------------------------+-------+---------------+
+; Clock                                                       ; Slack ; End Point TNS ;
++-------------------------------------------------------------+-------+---------------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 0.535 ; 0.000         ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 4.002 ; 0.000         ;
++-------------------------------------------------------------+-------+---------------+
+
+
++-------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Hold Summary                                                   ;
++-------------------------------------------------------------+-------+---------------+
+; Clock                                                       ; Slack ; End Point TNS ;
++-------------------------------------------------------------+-------+---------------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 0.356 ; 0.000         ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 0.411 ; 0.000         ;
++-------------------------------------------------------------+-------+---------------+
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Minimum Pulse Width Summary                                    ;
++-------------------------------------------------------------+-------+---------------+
+; Clock                                                       ; Slack ; End Point TNS ;
++-------------------------------------------------------------+-------+---------------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 0.693 ; 0.000         ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 6.463 ; 0.000         ;
+; CLOCK_74                                                    ; 6.607 ; 0.000         ;
++-------------------------------------------------------------+-------+---------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Clock to Output Times                                                                                                ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference                                             ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; TMDS_CLOCK_N ; CLOCK_74   ; 3.417 ; 3.413 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 3.417 ; 3.413 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 3.415 ; 3.411 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 3.415 ; 3.411 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 3.412 ; 3.408 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 3.412 ; 3.408 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 3.412 ; 3.408 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 3.416 ; 3.412 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_N ; CLOCK_74   ; 3.406 ; 3.409 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 3.406 ; 3.409 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 3.404 ; 3.407 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 3.404 ; 3.407 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 3.400 ; 3.403 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 3.400 ; 3.403 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 3.400 ; 3.403 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 3.406 ; 3.409 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                                                        ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference                                             ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; TMDS_CLOCK_N ; CLOCK_74   ; 2.940 ; 2.947 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 2.940 ; 2.947 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 2.939 ; 2.946 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 2.939 ; 2.946 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 2.935 ; 2.942 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 2.935 ; 2.942 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 2.935 ; 2.942 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 2.940 ; 2.947 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_N ; CLOCK_74   ; 2.946 ; 2.941 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 2.946 ; 2.941 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 2.944 ; 2.939 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 2.944 ; 2.939 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 2.940 ; 2.935 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 2.940 ; 2.935 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 2.940 ; 2.935 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 2.945 ; 2.940 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Fast 1200mV 0C Model Setup Summary                                                  ;
++-------------------------------------------------------------+-------+---------------+
+; Clock                                                       ; Slack ; End Point TNS ;
++-------------------------------------------------------------+-------+---------------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 1.736 ; 0.000         ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 9.608 ; 0.000         ;
++-------------------------------------------------------------+-------+---------------+
+
+
++-------------------------------------------------------------------------------------+
+; Fast 1200mV 0C Model Hold Summary                                                   ;
++-------------------------------------------------------------+-------+---------------+
+; Clock                                                       ; Slack ; End Point TNS ;
++-------------------------------------------------------------+-------+---------------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 0.107 ; 0.000         ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 0.151 ; 0.000         ;
++-------------------------------------------------------------+-------+---------------+
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------------------------+
+; Fast 1200mV 0C Model Minimum Pulse Width Summary                                    ;
++-------------------------------------------------------------+-------+---------------+
+; Clock                                                       ; Slack ; End Point TNS ;
++-------------------------------------------------------------+-------+---------------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 0.693 ; 0.000         ;
+; CLOCK_74                                                    ; 6.128 ; 0.000         ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 6.515 ; 0.000         ;
++-------------------------------------------------------------+-------+---------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Clock to Output Times                                                                                                ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference                                             ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; TMDS_CLOCK_N ; CLOCK_74   ; 1.066 ; 1.122 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 1.066 ; 1.122 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 1.065 ; 1.121 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 1.065 ; 1.121 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 1.061 ; 1.117 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 1.061 ; 1.117 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 1.061 ; 1.117 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 1.066 ; 1.122 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_N ; CLOCK_74   ; 1.086 ; 1.140 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 1.086 ; 1.140 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 1.085 ; 1.139 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 1.085 ; 1.139 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 1.082 ; 1.136 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 1.082 ; 1.136 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 1.082 ; 1.136 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 1.086 ; 1.140 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                                                        ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference                                             ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; TMDS_CLOCK_N ; CLOCK_74   ; 0.816 ; 0.877 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 0.816 ; 0.877 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 0.815 ; 0.876 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 0.815 ; 0.876 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 0.812 ; 0.873 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 0.812 ; 0.873 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 0.812 ; 0.873 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 0.816 ; 0.877 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_N ; CLOCK_74   ; 0.827 ; 0.881 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 0.827 ; 0.881 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 0.826 ; 0.880 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 0.826 ; 0.880 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 0.823 ; 0.877 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 0.823 ; 0.877 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 0.823 ; 0.877 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 0.827 ; 0.881 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                                                                     ;
++--------------------------------------------------------------+-------+-------+----------+---------+---------------------+
+; Clock                                                        ; Setup ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++--------------------------------------------------------------+-------+-------+----------+---------+---------------------+
+; Worst-case Slack                                             ; 0.357 ; 0.107 ; N/A      ; N/A     ; 0.693               ;
+;  CLOCK_74                                                    ; N/A   ; N/A   ; N/A      ; N/A     ; 6.128               ;
+;  hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 3.121 ; 0.151 ; N/A      ; N/A     ; 6.460               ;
+;  hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 0.357 ; 0.107 ; N/A      ; N/A     ; 0.693               ;
+; Design-wide TNS                                              ; 0.0   ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
+;  CLOCK_74                                                    ; N/A   ; N/A   ; N/A      ; N/A     ; 0.000               ;
+;  hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 0.000 ; 0.000 ; N/A      ; N/A     ; 0.000               ;
+;  hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 0.000 ; 0.000 ; N/A      ; N/A     ; 0.000               ;
++--------------------------------------------------------------+-------+-------+----------+---------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Clock to Output Times                                                                                                ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference                                             ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; TMDS_CLOCK_N ; CLOCK_74   ; 3.751 ; 3.728 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 3.751 ; 3.728 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 3.749 ; 3.726 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 3.749 ; 3.726 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 3.746 ; 3.723 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 3.746 ; 3.723 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 3.746 ; 3.723 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 3.750 ; 3.727 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_N ; CLOCK_74   ; 3.736 ; 3.720 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 3.736 ; 3.720 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 3.735 ; 3.719 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 3.735 ; 3.719 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 3.731 ; 3.715 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 3.731 ; 3.715 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 3.731 ; 3.715 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 3.736 ; 3.720 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                                                        ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference                                             ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+; TMDS_CLOCK_N ; CLOCK_74   ; 0.816 ; 0.877 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 0.816 ; 0.877 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 0.815 ; 0.876 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 0.815 ; 0.876 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 0.812 ; 0.873 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 0.812 ; 0.873 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 0.812 ; 0.873 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 0.816 ; 0.877 ; Rise       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_N ; CLOCK_74   ; 0.827 ; 0.881 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_CLOCK_P ; CLOCK_74   ; 0.827 ; 0.881 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_N ; CLOCK_74   ; 0.826 ; 0.880 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA0_P ; CLOCK_74   ; 0.826 ; 0.880 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_N ; CLOCK_74   ; 0.823 ; 0.877 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA1_P ; CLOCK_74   ; 0.823 ; 0.877 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_N ; CLOCK_74   ; 0.823 ; 0.877 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
+; TMDS_DATA2_P ; CLOCK_74   ; 0.827 ; 0.881 ; Fall       ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ;
++--------------+------------+-------+-------+------------+-------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                   ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin          ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; FREQ_SEL     ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; LED          ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; TMDS_CLOCK_N ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; TMDS_CLOCK_P ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; TMDS_DATA0_N ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; TMDS_DATA0_P ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; TMDS_DATA1_N ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; TMDS_DATA1_P ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; TMDS_DATA2_N ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; TMDS_DATA2_P ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_TDO~ ; 3.3-V LVTTL  ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++-----------------------------------------------------------------------+
+; Input Transition Times                                                ;
++--------------------+--------------+-----------------+-----------------+
+; Pin                ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++--------------------+--------------+-----------------+-----------------+
+; RESET_N            ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
+; CLOCK_74           ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
+; ~ALTERA_TMS~       ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
+; ~ALTERA_TCK~       ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
+; ~ALTERA_TDI~       ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
+; ~ALTERA_nCONFIG~   ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
+; ~ALTERA_nSTATUS~   ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
+; ~ALTERA_CONF_DONE~ ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
++--------------------+--------------+-----------------+-----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; FREQ_SEL     ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.27e-09 V                   ; 3.13 V              ; -0.0763 V           ; 0.147 V                              ; 0.222 V                              ; 6.49e-10 s                  ; 6.47e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.27e-09 V                  ; 3.13 V             ; -0.0763 V          ; 0.147 V                             ; 0.222 V                             ; 6.49e-10 s                 ; 6.47e-10 s                 ; No                        ; No                        ;
+; LED          ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 8.76e-09 V                   ; 3.12 V              ; -0.0755 V           ; 0.147 V                              ; 0.232 V                              ; 6.58e-10 s                  ; 6.57e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 8.76e-09 V                  ; 3.12 V             ; -0.0755 V          ; 0.147 V                             ; 0.232 V                             ; 6.58e-10 s                 ; 6.57e-10 s                 ; Yes                       ; No                        ;
+; TMDS_CLOCK_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 8.76e-09 V                   ; 3.13 V              ; -0.108 V            ; 0.137 V                              ; 0.252 V                              ; 4.49e-10 s                  ; 4.51e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 8.76e-09 V                  ; 3.13 V             ; -0.108 V           ; 0.137 V                             ; 0.252 V                             ; 4.49e-10 s                 ; 4.51e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_CLOCK_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 8.76e-09 V                   ; 3.13 V              ; -0.108 V            ; 0.137 V                              ; 0.252 V                              ; 4.49e-10 s                  ; 4.51e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 8.76e-09 V                  ; 3.13 V             ; -0.108 V           ; 0.137 V                             ; 0.252 V                             ; 4.49e-10 s                 ; 4.51e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA0_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 8.76e-09 V                   ; 3.13 V              ; -0.108 V            ; 0.137 V                              ; 0.252 V                              ; 4.49e-10 s                  ; 4.51e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 8.76e-09 V                  ; 3.13 V             ; -0.108 V           ; 0.137 V                             ; 0.252 V                             ; 4.49e-10 s                 ; 4.51e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA0_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 8.76e-09 V                   ; 3.13 V              ; -0.108 V            ; 0.137 V                              ; 0.252 V                              ; 4.49e-10 s                  ; 4.51e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 8.76e-09 V                  ; 3.13 V             ; -0.108 V           ; 0.137 V                             ; 0.252 V                             ; 4.49e-10 s                 ; 4.51e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA1_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 8.76e-09 V                   ; 3.13 V              ; -0.108 V            ; 0.137 V                              ; 0.252 V                              ; 4.49e-10 s                  ; 4.51e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 8.76e-09 V                  ; 3.13 V             ; -0.108 V           ; 0.137 V                             ; 0.252 V                             ; 4.49e-10 s                 ; 4.51e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA1_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 8.76e-09 V                   ; 3.13 V              ; -0.108 V            ; 0.137 V                              ; 0.252 V                              ; 4.49e-10 s                  ; 4.51e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 8.76e-09 V                  ; 3.13 V             ; -0.108 V           ; 0.137 V                             ; 0.252 V                             ; 4.49e-10 s                 ; 4.51e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA2_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 8.76e-09 V                   ; 3.13 V              ; -0.108 V            ; 0.137 V                              ; 0.252 V                              ; 4.49e-10 s                  ; 4.51e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 8.76e-09 V                  ; 3.13 V             ; -0.108 V           ; 0.137 V                             ; 0.252 V                             ; 4.49e-10 s                 ; 4.51e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA2_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 8.76e-09 V                   ; 3.13 V              ; -0.108 V            ; 0.137 V                              ; 0.252 V                              ; 4.49e-10 s                  ; 4.51e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 8.76e-09 V                  ; 3.13 V             ; -0.108 V           ; 0.137 V                             ; 0.252 V                             ; 4.49e-10 s                 ; 4.51e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_TDO~ ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.27e-09 V                   ; 3.13 V              ; -0.0763 V           ; 0.147 V                              ; 0.222 V                              ; 6.49e-10 s                  ; 6.47e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.27e-09 V                  ; 3.13 V             ; -0.0763 V          ; 0.147 V                             ; 0.222 V                             ; 6.49e-10 s                 ; 6.47e-10 s                 ; No                        ; No                        ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; FREQ_SEL     ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 4.88e-07 V                   ; 3.11 V              ; -0.0428 V           ; 0.232 V                              ; 0.193 V                              ; 7.18e-10 s                  ; 8.49e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 4.88e-07 V                  ; 3.11 V             ; -0.0428 V          ; 0.232 V                             ; 0.193 V                             ; 7.18e-10 s                 ; 8.49e-10 s                 ; Yes                       ; No                        ;
+; LED          ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 7.26e-07 V                   ; 3.11 V              ; -0.0362 V           ; 0.116 V                              ; 0.199 V                              ; 7.35e-10 s                  ; 8.59e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 7.26e-07 V                  ; 3.11 V             ; -0.0362 V          ; 0.116 V                             ; 0.199 V                             ; 7.35e-10 s                 ; 8.59e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_CLOCK_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 7.26e-07 V                   ; 3.11 V              ; -0.0454 V           ; 0.086 V                              ; 0.154 V                              ; 5.03e-10 s                  ; 6.34e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 7.26e-07 V                  ; 3.11 V             ; -0.0454 V          ; 0.086 V                             ; 0.154 V                             ; 5.03e-10 s                 ; 6.34e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_CLOCK_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 7.26e-07 V                   ; 3.11 V              ; -0.0454 V           ; 0.086 V                              ; 0.154 V                              ; 5.03e-10 s                  ; 6.34e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 7.26e-07 V                  ; 3.11 V             ; -0.0454 V          ; 0.086 V                             ; 0.154 V                             ; 5.03e-10 s                 ; 6.34e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA0_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 7.26e-07 V                   ; 3.11 V              ; -0.0454 V           ; 0.086 V                              ; 0.154 V                              ; 5.03e-10 s                  ; 6.34e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 7.26e-07 V                  ; 3.11 V             ; -0.0454 V          ; 0.086 V                             ; 0.154 V                             ; 5.03e-10 s                 ; 6.34e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA0_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 7.26e-07 V                   ; 3.11 V              ; -0.0454 V           ; 0.086 V                              ; 0.154 V                              ; 5.03e-10 s                  ; 6.34e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 7.26e-07 V                  ; 3.11 V             ; -0.0454 V          ; 0.086 V                             ; 0.154 V                             ; 5.03e-10 s                 ; 6.34e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA1_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 7.26e-07 V                   ; 3.11 V              ; -0.0454 V           ; 0.086 V                              ; 0.154 V                              ; 5.03e-10 s                  ; 6.34e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 7.26e-07 V                  ; 3.11 V             ; -0.0454 V          ; 0.086 V                             ; 0.154 V                             ; 5.03e-10 s                 ; 6.34e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA1_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 7.26e-07 V                   ; 3.11 V              ; -0.0454 V           ; 0.086 V                              ; 0.154 V                              ; 5.03e-10 s                  ; 6.34e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 7.26e-07 V                  ; 3.11 V             ; -0.0454 V          ; 0.086 V                             ; 0.154 V                             ; 5.03e-10 s                 ; 6.34e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA2_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 7.26e-07 V                   ; 3.11 V              ; -0.0454 V           ; 0.086 V                              ; 0.154 V                              ; 5.03e-10 s                  ; 6.34e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 7.26e-07 V                  ; 3.11 V             ; -0.0454 V          ; 0.086 V                             ; 0.154 V                             ; 5.03e-10 s                 ; 6.34e-10 s                 ; Yes                       ; Yes                       ;
+; TMDS_DATA2_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 7.26e-07 V                   ; 3.11 V              ; -0.0454 V           ; 0.086 V                              ; 0.154 V                              ; 5.03e-10 s                  ; 6.34e-10 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 7.26e-07 V                  ; 3.11 V             ; -0.0454 V          ; 0.086 V                             ; 0.154 V                             ; 5.03e-10 s                 ; 6.34e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_TDO~ ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.08 V                       ; 4.88e-07 V                   ; 3.11 V              ; -0.0428 V           ; 0.232 V                              ; 0.193 V                              ; 7.18e-10 s                  ; 8.49e-10 s                  ; Yes                        ; No                         ; 3.08 V                      ; 4.88e-07 V                  ; 3.11 V             ; -0.0428 V          ; 0.232 V                             ; 0.193 V                             ; 7.18e-10 s                 ; 8.49e-10 s                 ; Yes                       ; No                        ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; FREQ_SEL     ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 1.51e-07 V                   ; 3.74 V              ; -0.0927 V           ; 0.278 V                              ; 0.379 V                              ; 4.68e-10 s                  ; 4.84e-10 s                  ; No                         ; No                         ; 3.63 V                      ; 1.51e-07 V                  ; 3.74 V             ; -0.0927 V          ; 0.278 V                             ; 0.379 V                             ; 4.68e-10 s                 ; 4.84e-10 s                 ; No                        ; No                        ;
+; LED          ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 2.23e-07 V                   ; 3.72 V              ; -0.102 V            ; 0.273 V                              ; 0.417 V                              ; 4.74e-10 s                  ; 4.95e-10 s                  ; No                         ; No                         ; 3.63 V                      ; 2.23e-07 V                  ; 3.72 V             ; -0.102 V           ; 0.273 V                             ; 0.417 V                             ; 4.74e-10 s                 ; 4.95e-10 s                 ; No                        ; No                        ;
+; TMDS_CLOCK_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 2.23e-07 V                   ; 3.73 V              ; -0.142 V            ; 0.293 V                              ; 0.237 V                              ; 2.89e-10 s                  ; 4.14e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 2.23e-07 V                  ; 3.73 V             ; -0.142 V           ; 0.293 V                             ; 0.237 V                             ; 2.89e-10 s                 ; 4.14e-10 s                 ; Yes                       ; No                        ;
+; TMDS_CLOCK_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 2.23e-07 V                   ; 3.73 V              ; -0.142 V            ; 0.293 V                              ; 0.237 V                              ; 2.89e-10 s                  ; 4.14e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 2.23e-07 V                  ; 3.73 V             ; -0.142 V           ; 0.293 V                             ; 0.237 V                             ; 2.89e-10 s                 ; 4.14e-10 s                 ; Yes                       ; No                        ;
+; TMDS_DATA0_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 2.23e-07 V                   ; 3.73 V              ; -0.142 V            ; 0.293 V                              ; 0.237 V                              ; 2.89e-10 s                  ; 4.14e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 2.23e-07 V                  ; 3.73 V             ; -0.142 V           ; 0.293 V                             ; 0.237 V                             ; 2.89e-10 s                 ; 4.14e-10 s                 ; Yes                       ; No                        ;
+; TMDS_DATA0_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 2.23e-07 V                   ; 3.73 V              ; -0.142 V            ; 0.293 V                              ; 0.237 V                              ; 2.89e-10 s                  ; 4.14e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 2.23e-07 V                  ; 3.73 V             ; -0.142 V           ; 0.293 V                             ; 0.237 V                             ; 2.89e-10 s                 ; 4.14e-10 s                 ; Yes                       ; No                        ;
+; TMDS_DATA1_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 2.23e-07 V                   ; 3.73 V              ; -0.142 V            ; 0.293 V                              ; 0.237 V                              ; 2.89e-10 s                  ; 4.14e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 2.23e-07 V                  ; 3.73 V             ; -0.142 V           ; 0.293 V                             ; 0.237 V                             ; 2.89e-10 s                 ; 4.14e-10 s                 ; Yes                       ; No                        ;
+; TMDS_DATA1_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 2.23e-07 V                   ; 3.73 V              ; -0.142 V            ; 0.293 V                              ; 0.237 V                              ; 2.89e-10 s                  ; 4.14e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 2.23e-07 V                  ; 3.73 V             ; -0.142 V           ; 0.293 V                             ; 0.237 V                             ; 2.89e-10 s                 ; 4.14e-10 s                 ; Yes                       ; No                        ;
+; TMDS_DATA2_N ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 2.23e-07 V                   ; 3.73 V              ; -0.142 V            ; 0.293 V                              ; 0.237 V                              ; 2.89e-10 s                  ; 4.14e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 2.23e-07 V                  ; 3.73 V             ; -0.142 V           ; 0.293 V                             ; 0.237 V                             ; 2.89e-10 s                 ; 4.14e-10 s                 ; Yes                       ; No                        ;
+; TMDS_DATA2_P ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 2.23e-07 V                   ; 3.73 V              ; -0.142 V            ; 0.293 V                              ; 0.237 V                              ; 2.89e-10 s                  ; 4.14e-10 s                  ; Yes                        ; No                         ; 3.63 V                      ; 2.23e-07 V                  ; 3.73 V             ; -0.142 V           ; 0.293 V                             ; 0.237 V                             ; 2.89e-10 s                 ; 4.14e-10 s                 ; Yes                       ; No                        ;
+; ~ALTERA_TDO~ ; 3.3-V LVTTL  ; 0 s                 ; 0 s                 ; 3.63 V                       ; 1.51e-07 V                   ; 3.74 V              ; -0.0927 V           ; 0.278 V                              ; 0.379 V                              ; 4.68e-10 s                  ; 4.84e-10 s                  ; No                         ; No                         ; 3.63 V                      ; 1.51e-07 V                  ; 3.74 V             ; -0.0927 V          ; 0.278 V                             ; 0.379 V                             ; 4.68e-10 s                 ; 4.84e-10 s                 ; No                        ; No                        ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup Transfers                                                                                                                                                       ;
++-------------------------------------------------------------+-------------------------------------------------------------+----------+----------+----------+----------+
+; From Clock                                                  ; To Clock                                                    ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++-------------------------------------------------------------+-------------------------------------------------------------+----------+----------+----------+----------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 72569    ; 0        ; 0        ; 0        ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 30       ; 0        ; 0        ; 0        ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 82       ; 0        ; 0        ; 0        ;
++-------------------------------------------------------------+-------------------------------------------------------------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold Transfers                                                                                                                                                        ;
++-------------------------------------------------------------+-------------------------------------------------------------+----------+----------+----------+----------+
+; From Clock                                                  ; To Clock                                                    ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++-------------------------------------------------------------+-------------------------------------------------------------+----------+----------+----------+----------+
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; 72569    ; 0        ; 0        ; 0        ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 30       ; 0        ; 0        ; 0        ;
+; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] ; 82       ; 0        ; 0        ; 0        ;
++-------------------------------------------------------------+-------------------------------------------------------------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 1     ; 1    ;
+; Unconstrained Input Port Paths  ; 1     ; 1    ;
+; Unconstrained Output Ports      ; 9     ; 9    ;
+; Unconstrained Output Port Paths ; 9     ; 9    ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 14.0.2 Build 209 09/17/2014 SJ Web Edition
+    Info: Processing started: Sat Nov 15 23:23:36 2014
+Info: Command: quartus_sta max10_hdmi -c max10_hdmi_top
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (21076): Core supply voltage operating condition is not set. Assuming a default value of '1.2V'.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (332104): Reading SDC File: 'max10_hdmi_top.sdc'
+Info (332110): Deriving PLL clocks
+    Info (332110): create_generated_clock -source {hdvideopll_inst|altpll_component|auto_generated|pll1|inclk[0]} -duty_cycle 50.00 -name {hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]} {hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]}
+    Info (332110): create_generated_clock -source {hdvideopll_inst|altpll_component|auto_generated|pll1|inclk[0]} -multiply_by 5 -duty_cycle 50.00 -name {hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]} {hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]}
+Warning (332174): Ignored filter at max10_hdmi_top.sdc(13): CLOCK_50 could not be matched with a port or pin or register or keeper or net
+Warning (332049): Ignored create_clock at max10_hdmi_top.sdc(13): Argument <targets> is not an object ID
+    Info (332050): create_clock -period "20.000 ns" -name {CLOCK_50} {CLOCK_50}
+Critical Warning (332168): The following clock transfers have no clock uncertainty assignment. For more accurate results, apply clock uncertainty assignments or use the derive_clock_uncertainty command.
+    Critical Warning (332169): From hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] (Rise) to hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] (Rise) (setup and hold)
+    Critical Warning (332169): From hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] (Rise) to hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] (Rise) (setup and hold)
+    Critical Warning (332169): From hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] (Rise) to hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] (Rise) (setup and hold)
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1200mV 85C Model
+Info: Can't run Report Timing Closure Recommendations. The current device family is not supported.
+Info (332146): Worst-case setup slack is 0.357
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.357               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] 
+    Info (332119):     3.121               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] 
+Info (332146): Worst-case hold slack is 0.374
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.374               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] 
+    Info (332119):     0.459               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 0.693
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.693               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] 
+    Info (332119):     6.460               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] 
+    Info (332119):     6.599               0.000 CLOCK_74 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Warning (12535): Advance timing characteristics for device 10M08SAE144C8GES
+Info (334004): Delay annotation completed successfully
+Critical Warning (332168): The following clock transfers have no clock uncertainty assignment. For more accurate results, apply clock uncertainty assignments or use the derive_clock_uncertainty command.
+    Critical Warning (332169): From hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] (Rise) to hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] (Rise) (setup and hold)
+    Critical Warning (332169): From hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] (Rise) to hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] (Rise) (setup and hold)
+    Critical Warning (332169): From hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] (Rise) to hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] (Rise) (setup and hold)
+Info (332146): Worst-case setup slack is 0.535
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.535               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] 
+    Info (332119):     4.002               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] 
+Info (332146): Worst-case hold slack is 0.356
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.356               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] 
+    Info (332119):     0.411               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 0.693
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.693               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] 
+    Info (332119):     6.463               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] 
+    Info (332119):     6.607               0.000 CLOCK_74 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast 1200mV 0C Model
+Critical Warning (332168): The following clock transfers have no clock uncertainty assignment. For more accurate results, apply clock uncertainty assignments or use the derive_clock_uncertainty command.
+    Critical Warning (332169): From hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] (Rise) to hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] (Rise) (setup and hold)
+    Critical Warning (332169): From hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] (Rise) to hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] (Rise) (setup and hold)
+    Critical Warning (332169): From hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] (Rise) to hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] (Rise) (setup and hold)
+Info (332146): Worst-case setup slack is 1.736
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     1.736               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] 
+    Info (332119):     9.608               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] 
+Info (332146): Worst-case hold slack is 0.107
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.107               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] 
+    Info (332119):     0.151               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 0.693
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.693               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1] 
+    Info (332119):     6.128               0.000 CLOCK_74 
+    Info (332119):     6.515               0.000 hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0] 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 15 warnings
+    Info: Peak virtual memory: 543 megabytes
+    Info: Processing ended: Sat Nov 15 23:23:38 2014
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:03
+
+

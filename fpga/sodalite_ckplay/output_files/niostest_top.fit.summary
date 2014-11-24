@@ -1,0 +1,17 @@
+Fitter Status : Successful - Sun Nov 16 01:44:27 2014
+Quartus II 64-Bit Version : 14.0.2 Build 209 09/17/2014 SJ Web Edition
+Revision Name : niostest_top
+Top-level Entity Name : ckplay_top
+Family : MAX 10 FPGA
+Device : 10M08SAE144C8GES
+Timing Models : Advance
+Total logic elements : 7,698 / 8,064 ( 95 % )
+    Total combinational functions : 7,165 / 8,064 ( 89 % )
+    Dedicated logic registers : 4,999 / 8,064 ( 62 % )
+Total registers : 5084
+Total pins : 55 / 101 ( 54 % )
+Total virtual pins : 0
+Total memory bits : 239,616 / 387,072 ( 62 % )
+Embedded Multiplier 9-bit elements : 22 / 48 ( 46 % )
+Total PLLs : 1 / 1 ( 100 % )
+UFM blocks : 1 / 1 ( 100 % )

@@ -1,0 +1,89 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.121
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.374
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.459
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.460
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_74'
+Slack : 6.599
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.535
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.002
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.463
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_74'
+Slack : 6.607
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.736
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.608
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.107
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_74'
+Slack : 6.128
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hdvideopll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.515
+TNS   : 0.000
+
+------------------------------------------------------------

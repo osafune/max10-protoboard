@@ -1,0 +1,32 @@
+	component testcore is
+		port (
+			clk100_clk            : in    std_logic                     := 'X';             -- clk
+			reset_reset_n         : in    std_logic                     := 'X';             -- reset_n
+			led_export            : out   std_logic;                                        -- export
+			clk40_clk             : in    std_logic                     := 'X';             -- clk
+			sdr_addr              : out   std_logic_vector(12 downto 0);                    -- addr
+			sdr_ba                : out   std_logic_vector(1 downto 0);                     -- ba
+			sdr_cas_n             : out   std_logic;                                        -- cas_n
+			sdr_cke               : out   std_logic;                                        -- cke
+			sdr_cs_n              : out   std_logic;                                        -- cs_n
+			sdr_dq                : inout std_logic_vector(15 downto 0) := (others => 'X'); -- dq
+			sdr_dqm               : out   std_logic_vector(1 downto 0);                     -- dqm
+			sdr_ras_n             : out   std_logic;                                        -- ras_n
+			sdr_we_n              : out   std_logic;                                        -- we_n
+			adc_pll_locked_export : in    std_logic                     := 'X';             -- export
+			mmc_nCS               : out   std_logic;                                        -- nCS
+			mmc_SCK               : out   std_logic;                                        -- SCK
+			mmc_SDO               : out   std_logic;                                        -- SDO
+			mmc_SDI               : in    std_logic                     := 'X';             -- SDI
+			mmc_CD                : in    std_logic                     := 'X';             -- CD
+			mmc_WP                : in    std_logic                     := 'X';             -- WP
+			vga_clk               : in    std_logic                     := 'X';             -- clk
+			vga_rout              : out   std_logic_vector(4 downto 0);                     -- rout
+			vga_gout              : out   std_logic_vector(4 downto 0);                     -- gout
+			vga_bout              : out   std_logic_vector(4 downto 0);                     -- bout
+			vga_hsync_n           : out   std_logic;                                        -- hsync_n
+			vga_vsync_n           : out   std_logic;                                        -- vsync_n
+			vga_enable            : out   std_logic                                         -- enable
+		);
+	end component testcore;
+

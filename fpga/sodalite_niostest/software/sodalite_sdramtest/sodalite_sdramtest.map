@@ -1,0 +1,919 @@
+Archive member included because of file (symbol)
+
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+                              obj/default/memtest_small.o (_impure_ptr)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+                              obj/default/memtest_small.o (printf)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+                              obj/default/memtest_small.o (putc)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+                              obj/default/memtest_small.o (putchar)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+                              obj/default/memtest_small.o (puts)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+                              c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o) (strlen)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+                              obj/default/memtest_small.o (strtol)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+                              c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o) (___vfprintf_internal_r)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+                              c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o) (__ctype_ptr)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                              c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o) (__sfvwrite_small_dev)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+                              c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o) (_write_r)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+                              c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o) (errno)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+                              c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o) (__udivsi3)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+                              obj/default/memtest_small.o (alt_getchar)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+                              ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o (alt_load)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+                              ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o (alt_main)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+                              c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o) (write)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o) (altera_avalon_jtag_uart_read)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o) (altera_avalon_jtag_uart_write)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_modular_adc_init)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_onchip_flash_read)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o) (alt_dcache_flush)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o) (alt_fd_list)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o) (alt_dev_llist_insert)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o) (alt_errno)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o) (alt_find_dev)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o) (alt_flash_dev_list)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o) (memcmp)
+c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+                              ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o) (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sdram            0x0000000000000000 0x0000000002000000
+reset            0x000000000f000000 0x0000000000000020
+onchip_memory2_0 0x000000000f000020 0x0000000000003fe0
+onchip_flash_0_data 0x000000000f100000 0x0000000000008000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/memtest_small.o
+LOAD c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libstdc++.a
+LOAD c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libm.a
+LOAD c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a
+START GROUP
+LOAD c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a
+LOAD c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a
+LOAD ../sodalite_sdramtest_bsp/\libhal_bsp.a
+END GROUP
+LOAD c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a
+                0x0000000000000000                __alt_mem_sdram = 0x0
+                0x000000000f000000                __alt_mem_onchip_memory2_0 = 0xf000000
+                0x000000000f100000                __alt_mem_onchip_flash_0_data = 0xf100000
+
+.entry          0x000000000f000000       0x20
+ *(.entry)
+ .entry         0x000000000f000000       0x20 ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+                0x000000000f000000                __reset
+                0x000000000f00001c                _exit
+
+.exceptions     0x000000000f000020        0x0
+                0x000000000f000020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x000000000f000020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x000000000f000020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x000000000f000020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x000000000f000020     0x20dc
+                0x000000000f000020                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000000000f000020       0x4c ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+                0x000000000f000020                _start
+ .text          0x000000000f00006c       0x9c obj/default/memtest_small.o
+                0x000000000f00006c                GetInputString
+ .text.startup  0x000000000f000108      0x52c obj/default/memtest_small.o
+                0x000000000f000108                main
+ .text          0x000000000f000634        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+ .text          0x000000000f000634       0x88 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+                0x000000000f000634                _printf_r
+                0x000000000f000670                printf
+ .text          0x000000000f0006bc       0xbc c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+                0x000000000f0006bc                putc
+                0x000000000f000718                _putc_r
+ .text          0x000000000f000778       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+                0x000000000f000778                _putchar_r
+                0x000000000f000780                putchar
+ .text          0x000000000f00079c       0x94 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+                0x000000000f00079c                _puts_r
+                0x000000000f00081c                puts
+ .text          0x000000000f000830       0x28 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+                0x000000000f000830                strlen
+ .text          0x000000000f000858      0x278 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+                0x000000000f000858                _strtol_r
+                0x000000000f000aac                strtol
+ .text          0x000000000f000ad0      0x6e8 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+                0x000000000f000ad0                ___vfprintf_internal_r
+                0x000000000f001194                __vfprintf_internal
+ .text          0x000000000f0011b8        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+ .text          0x000000000f0011b8       0xe0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x000000000f0011b8                __sfvwrite_small_dev
+ .text          0x000000000f001298       0x6c c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+                0x000000000f001298                _write_r
+ .text          0x000000000f001304        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+ .text          0x000000000f001304      0x130 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+                0x000000000f001378                __divsi3
+                0x000000000f0013c8                __modsi3
+                0x000000000f001424                __udivsi3
+                0x000000000f00142c                __umodsi3
+ .text          0x000000000f001434       0x44 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+                0x000000000f001434                alt_getchar
+ .text          0x000000000f001478      0x104 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+                0x000000000f001478                alt_load
+ .text          0x000000000f00157c       0x2c ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000f00157c                alt_main
+ .text          0x000000000f0015a8       0x68 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+                0x000000000f0015a8                write
+ .text          0x000000000f001610       0x48 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000000000f001610                alt_irq_init
+                0x000000000f001630                alt_sys_init
+ .text          0x000000000f001658       0x5c ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x000000000f001658                altera_avalon_jtag_uart_read
+ .text          0x000000000f0016b4       0x34 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x000000000f0016b4                altera_avalon_jtag_uart_write
+ .text          0x000000000f0016e8       0x10 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+                0x000000000f0016e8                altera_modular_adc_init
+                0x000000000f0016f0                altera_modular_adc_open
+ .text          0x000000000f0016f8      0x7c4 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+                0x000000000f0016f8                alt_onchip_flash_read
+                0x000000000f001764                alt_onchip_flash_get_info
+                0x000000000f0017a8                alt_onchip_flash_write
+                0x000000000f001930                altera_onchip_flash_init
+                0x000000000f001b6c                alt_onchip_flash_poll_for_status_to_go_idle
+                0x000000000f001ba0                alt_onchip_flash_poll_for_status_erase_passed
+                0x000000000f001bd4                alt_onchip_flash_erase_block
+                0x000000000f001cbc                alt_onchip_flash_poll_for_status_write_passed
+                0x000000000f001cf0                alt_onchip_flash_write_block
+ .text          0x000000000f001ebc       0x28 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+                0x000000000f001ebc                alt_dcache_flush
+ .text          0x000000000f001ee4       0x18 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x000000000f001ee4                alt_dcache_flush_all
+ .text          0x000000000f001efc        0x8 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x000000000f001f04       0x6c ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x000000000f001f04                alt_dev_llist_insert
+ .text          0x000000000f001f70        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x000000000f001f70       0x70 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x000000000f001f70                alt_find_dev
+ .text          0x000000000f001fe0       0x60 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                0x000000000f001fe0                alt_flash_open_dev
+                0x000000000f00202c                alt_flash_close_dev
+ .text          0x000000000f002040        0xc ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x000000000f002040                alt_icache_flush_all
+ .text          0x000000000f00204c        0x8 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x000000000f00204c                altera_nios2_gen2_irq_init
+ .text          0x000000000f002054       0x38 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x000000000f002054                alt_icache_flush
+ .text          0x000000000f00208c       0x48 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+                0x000000000f00208c                memcmp
+ .text          0x000000000f0020d4       0x28 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+                0x000000000f0020d4                memcpy
+ *(.gnu.warning.*)
+ *(.fini)
+                0x000000000f0020fc                PROVIDE (__etext, ABSOLUTE (.))
+                0x000000000f0020fc                PROVIDE (_etext, ABSOLUTE (.))
+                0x000000000f0020fc                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000000000f0020fc                . = ALIGN (0x4)
+                0x000000000f0020fc                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x000000000f0020fc                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x000000000f0020fc                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x000000000f0020fc                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x000000000f0020fc                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x000000000f0020fc                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x000000000f0020fc                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x000000000f0020fc                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x000000000f0020fc                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x000000000f0020fc                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x000000000f0020fc                . = ALIGN (0x4)
+
+.rodata         0x000000000f0020fc      0x708
+                0x000000000f0020fc                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x000000000f0020fc                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x000000000f0020fc      0x439 obj/default/memtest_small.o
+                                        0x43c (size before relaxing)
+ .rodata.str1.4
+                0x0000000000000000        0x4 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+ .rodata        0x000000000f002535      0x281 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+                0x000000000f002535                _ctype_
+ *fill*         0x000000000f0027b6        0x2 
+ .rodata.str1.4
+                0x000000000f0027b8       0x3d ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                         0x40 (size before relaxing)
+ *fill*         0x000000000f0027f5        0x3 
+ .rodata.str1.4
+                0x000000000f0027f8        0xc ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x000000000f002804                . = ALIGN (0x4)
+                0x000000000f002804                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x000000000f0020fc                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x000000000f002804      0x29c load address 0x000000000f002aa0
+                0x000000000f002804                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x000000000f002804                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000f002804        0x0 ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+ .data          0x000000000f002804        0x0 obj/default/memtest_small.o
+ .data          0x000000000f002804       0xe0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+ .data          0x000000000f0028e4        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+ .data          0x000000000f0028e4        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+ .data          0x000000000f0028e4        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x000000000f0028e4        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x000000000f0028e4        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+ .data          0x000000000f0028e4      0x124 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x000000000f002a08        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x000000000f002a08        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x000000000f002a08        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+ .data          0x000000000f002a08        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+ .data          0x000000000f002a08        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+ .data          0x000000000f002a08        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000000000f002a08       0x58 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000000000f002a08                alt_fd_list
+                0x000000000f002a38                alt_dev_null
+ .data          0x000000000f002a60        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000000000f002a60        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x000000000f002a60        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x000000000f002a60        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .data          0x000000000f002a60        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000000000f002a60        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x000000000f002a60        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x000000000f002a60        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+ .data          0x000000000f002a60        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+                0x000000000f00aa60                _gp = ABSOLUTE ((. + 0x8000))
+                0x000000000f00aa60                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x000000000f002a60        0x8 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+                0x000000000f002a60                _global_impure_ptr
+                0x000000000f002a64                _impure_ptr
+ .sdata         0x000000000f002a68        0x4 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+                0x000000000f002a68                __ctype_ptr
+ .sdata         0x000000000f002a6c        0x4 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000000000f002a6c                jtag_uart
+ .sdata         0x000000000f002a70        0x8 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+                0x000000000f002a70                altera_modular_adc_list
+ .sdata         0x000000000f002a78        0x8 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+                0x000000000f002a78                altera_onchip_flash_list
+ .sdata         0x000000000f002a80       0x14 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000000000f002a80                alt_max_fd
+                0x000000000f002a84                alt_dev_list
+                0x000000000f002a8c                alt_fs_list
+ .sdata         0x000000000f002a94        0x4 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+                0x000000000f002a94                alt_errno
+ .sdata         0x000000000f002a98        0x8 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                0x000000000f002a98                alt_flash_dev_list
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x000000000f002aa0                . = ALIGN (0x4)
+                0x000000000f002aa0                _edata = ABSOLUTE (.)
+                0x000000000f002aa0                PROVIDE (edata, ABSOLUTE (.))
+                0x000000000f002aa0                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x000000000f002aa0                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x000000000f002d3c       0x10
+                0x000000000f002d3c                __bss_start = ABSOLUTE (.)
+                0x000000000f002d3c                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x000000000f002d3c                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x000000000f002d3c        0x4 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+                0x000000000f002d3c                errno
+ .sbss          0x000000000f002d40        0xc ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000f002d40                alt_envp
+                0x000000000f002d44                alt_argv
+                0x000000000f002d48                alt_argc
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x000000000f002d4c                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x000000000f002d4c                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+ .bss           0x000000000f002d4c        0x0 obj/default/memtest_small.o
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x000000000f002d4c        0x0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+ .bss           0x000000000f002d4c        0x0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+ *(COMMON)
+                0x000000000f002d4c                . = ALIGN (0x4)
+                0x000000000f002d4c                __bss_end = ABSOLUTE (.)
+
+.sdram          0x0000000000000000        0x0 load address 0x000000000f002d4c
+                0x0000000000000000                PROVIDE (_alt_partition_sdram_start, ABSOLUTE (.))
+ *(.sdram .sdram. sdram.*)
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                PROVIDE (_alt_partition_sdram_end, ABSOLUTE (.))
+                0x000000000f002d4c                PROVIDE (_alt_partition_sdram_load_addr, LOADADDR (.sdram))
+
+.onchip_memory2_0
+                0x000000000f002d4c        0x0
+                0x000000000f002d4c                PROVIDE (_alt_partition_onchip_memory2_0_start, ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x000000000f002d4c                . = ALIGN (0x4)
+                0x000000000f002d4c                PROVIDE (_alt_partition_onchip_memory2_0_end, ABSOLUTE (.))
+                0x000000000f002d4c                _end = ABSOLUTE (.)
+                0x000000000f002d4c                end = ABSOLUTE (.)
+                0x000000000f002d4c                __alt_stack_base = ABSOLUTE (.)
+                0x000000000f002d4c                PROVIDE (_alt_partition_onchip_memory2_0_load_addr, LOADADDR (.onchip_memory2_0))
+
+.onchip_flash_0_data
+                0x000000000f100000        0x0 load address 0x000000000f002d4c
+                0x000000000f100000                PROVIDE (_alt_partition_onchip_flash_0_data_start, ABSOLUTE (.))
+ *(.onchip_flash_0_data .onchip_flash_0_data. onchip_flash_0_data.*)
+                0x000000000f100000                . = ALIGN (0x4)
+                0x000000000f100000                PROVIDE (_alt_partition_onchip_flash_0_data_end, ABSOLUTE (.))
+                0x000000000f002d4c                PROVIDE (_alt_partition_onchip_flash_0_data_load_addr, LOADADDR (.onchip_flash_0_data))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/memtest_small.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000000       0x24 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000000       0x24 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x470
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x28 obj/default/memtest_small.o
+ .debug_aranges
+                0x0000000000000050       0x18 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000068       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+ .debug_aranges
+                0x0000000000000088       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x0000000000000108       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+ .debug_aranges
+                0x0000000000000128       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+ .debug_aranges
+                0x0000000000000148       0x18 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+ .debug_aranges
+                0x0000000000000160       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x0000000000000180       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+ .debug_aranges
+                0x00000000000001a0       0x18 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x00000000000001b8       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000218       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000238       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x0000000000000258       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000278       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000298       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000000000002b8       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+ .debug_aranges
+                0x00000000000002d8       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+ .debug_aranges
+                0x00000000000002f8       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+ .debug_aranges
+                0x0000000000000318       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000338       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000358       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000378       0x18 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000390       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000000000003b0       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_aranges
+                0x00000000000003d0       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000003f0       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000410       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000430       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000450       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x94e6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x83 ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000083     0x10a7 obj/default/memtest_small.o
+ .debug_info    0x000000000000112a      0x631 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+ .debug_info    0x000000000000175b      0x765 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+ .debug_info    0x0000000000001ec0      0x6ec c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+ .debug_info    0x00000000000025ac      0x6d0 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+ .debug_info    0x0000000000002c7c      0x6f4 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+ .debug_info    0x0000000000003370       0xc6 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000003436      0x747 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+ .debug_info    0x0000000000003b7d      0xc5d c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+ .debug_info    0x00000000000047da       0x98 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+ .debug_info    0x0000000000004872      0x6d9 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x0000000000004f4b      0x6cb c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+ .debug_info    0x0000000000005616       0x84 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x000000000000569a      0x289 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000005923      0x374 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_info    0x0000000000005c97      0x1d9 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000005e70      0x194 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000006004      0x1f2 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_info    0x00000000000061f6      0x7f8 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00000000000069ee      0x1bd ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0000000000006bab      0x1a0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000006d4b      0x582 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+ .debug_info    0x00000000000072cd      0xbde ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+ .debug_info    0x0000000000007eab       0xdb ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+ .debug_info    0x0000000000007f86       0xa3 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000008029      0x4df ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x0000000000008508      0x1c0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00000000000086c8       0xa3 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x000000000000876b      0x387 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x0000000000008af2      0x5ff ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_info    0x00000000000090f1       0xcd ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00000000000091be       0x8f ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x000000000000924d       0xdb ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000000000009328       0xf1 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+ .debug_info    0x0000000000009419       0xcd c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+
+.debug_abbrev   0x0000000000000000     0x29c1
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x311 obj/default/memtest_small.o
+ .debug_abbrev  0x0000000000000323      0x13b c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x000000000000045e      0x1e2 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+ .debug_abbrev  0x0000000000000640      0x19b c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+ .debug_abbrev  0x00000000000007db      0x1a6 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+ .debug_abbrev  0x0000000000000981      0x1d4 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+ .debug_abbrev  0x0000000000000b55       0x7f c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000000bd4      0x1cf c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+ .debug_abbrev  0x0000000000000da3      0x2db c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+ .debug_abbrev  0x000000000000107e       0x5d c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+ .debug_abbrev  0x00000000000010db      0x1a8 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x0000000000001283      0x199 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+ .debug_abbrev  0x000000000000141c       0x37 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000001453      0x112 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x0000000000001565      0x11f ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_abbrev  0x0000000000001684       0xd8 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x000000000000175c      0x120 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x000000000000187c      0x130 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x00000000000019ac      0x180 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000001b2c      0x102 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x0000000000001c2e       0xd5 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000001d03      0x171 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+ .debug_abbrev  0x0000000000001e74      0x2f6 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+ .debug_abbrev  0x000000000000216a       0x9b ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+ .debug_abbrev  0x0000000000002205       0x5a ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x000000000000225f       0xd9 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000002338      0x11c ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000002454       0x5a ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00000000000024ae      0x12e ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x00000000000025dc      0x16a ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_abbrev  0x0000000000002746       0x8a ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000000000027d0       0x42 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000002812       0x9b ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x00000000000028ad       0x7f c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x000000000000292c       0x95 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+
+.debug_line     0x0000000000000000     0x31b4
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x362 obj/default/memtest_small.o
+ .debug_line    0x00000000000003d4      0x16a c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+ .debug_line    0x000000000000053e      0x215 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+ .debug_line    0x0000000000000753      0x208 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+ .debug_line    0x000000000000095b      0x1f8 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+ .debug_line    0x0000000000000b53      0x20e c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+ .debug_line    0x0000000000000d61      0x172 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000000ed3      0x291 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+ .debug_line    0x0000000000001164      0x400 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+ .debug_line    0x0000000000001564       0xd2 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+ .debug_line    0x0000000000001636      0x221 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_line    0x0000000000001857      0x208 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+ .debug_line    0x0000000000001a5f       0x60 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000001abf       0xd6 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000001b95       0xad ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_line    0x0000000000001c42       0xd6 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000001d18       0xbd ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000001dd5      0x18e ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_line    0x0000000000001f63      0x179 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000000000020dc      0x104 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000000000021e0       0xf5 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x00000000000022d5      0x18b ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+ .debug_line    0x0000000000002460      0x3ec ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+ .debug_line    0x000000000000284c       0x7a ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+ .debug_line    0x00000000000028c6       0x5a ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000002920      0x121 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000002a41       0xc0 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000002b01       0x51 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000002b52      0x1a7 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x0000000000002cf9       0xea ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_line    0x0000000000002de3       0x87 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000002e6a       0x50 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000002eba       0x7d ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000000000002f37      0x17d c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+ .debug_line    0x00000000000030b4      0x100 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+
+.debug_frame    0x0000000000000000      0x6a8
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x5c obj/default/memtest_small.o
+ .debug_frame   0x000000000000005c       0x40 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+ .debug_frame   0x000000000000009c       0x44 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+ .debug_frame   0x00000000000000e0       0x30 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+ .debug_frame   0x0000000000000110       0x3c c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+ .debug_frame   0x000000000000014c       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x000000000000016c       0x4c c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+ .debug_frame   0x00000000000001b8       0x48 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+ .debug_frame   0x0000000000000200       0x30 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_frame   0x0000000000000230       0x2c c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+ .debug_frame   0x000000000000025c       0x70 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000000000002cc       0x28 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_frame   0x00000000000002f4       0x28 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x000000000000031c       0x28 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000344       0x28 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_frame   0x000000000000036c       0x40 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000000000003ac       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000000000003cc       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000000000003ec       0x30 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+ .debug_frame   0x000000000000041c       0xfc ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+ .debug_frame   0x0000000000000518       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+ .debug_frame   0x0000000000000538       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000558       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x0000000000000578       0x28 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000000000005a0       0x30 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000000000005d0       0x38 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_frame   0x0000000000000608       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000628       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000648       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x0000000000000668       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000688       0x20 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+
+.debug_str      0x0000000000000000     0x1bec
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x545 obj/default/memtest_small.o
+                                        0x615 (size before relaxing)
+ .debug_str     0x0000000000000545      0x149 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-impure.o)
+                                        0x465 (size before relaxing)
+ .debug_str     0x000000000000068e      0x12e c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+                                        0x4b0 (size before relaxing)
+ .debug_str     0x00000000000007bc       0x4a c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+                                        0x45d (size before relaxing)
+ .debug_str     0x0000000000000806       0x49 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+                                        0x467 (size before relaxing)
+ .debug_str     0x000000000000084f       0x4a c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+                                        0x45f (size before relaxing)
+ .debug_str     0x0000000000000899       0xda c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+                                        0x18c (size before relaxing)
+ .debug_str     0x0000000000000973      0x10f c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+                                        0x489 (size before relaxing)
+ .debug_str     0x0000000000000a82      0x196 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+                                        0x630 (size before relaxing)
+ .debug_str     0x0000000000000c18       0xe9 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-ctype_.o)
+                                        0x10f (size before relaxing)
+ .debug_str     0x0000000000000d01       0x82 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                        0x48b (size before relaxing)
+ .debug_str     0x0000000000000d83       0x3d c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+                                        0x45f (size before relaxing)
+ .debug_str     0x0000000000000dc0       0x40 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-int_errno.o)
+                                        0x17f (size before relaxing)
+ .debug_str     0x0000000000000e00      0x10e c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+                                        0x165 (size before relaxing)
+ .debug_str     0x0000000000000f0e      0x12b ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+                                        0x202 (size before relaxing)
+ .debug_str     0x0000000000001039      0x11b ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x208 (size before relaxing)
+ .debug_str     0x0000000000001154       0x5e ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x181 (size before relaxing)
+ .debug_str     0x00000000000011b2       0x4a ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+                                        0x1aa (size before relaxing)
+ .debug_str     0x00000000000011fc      0x355 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x562 (size before relaxing)
+ .debug_str     0x0000000000001551       0x38 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x1eb (size before relaxing)
+ .debug_str     0x0000000000001589       0x2c ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x1e1 (size before relaxing)
+ .debug_str     0x00000000000015b5      0x151 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+                                        0x322 (size before relaxing)
+ .debug_str     0x0000000000001706      0x2c7 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+                                        0x6de (size before relaxing)
+ .debug_str     0x00000000000019cd       0x1b ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+                                        0x127 (size before relaxing)
+ .debug_str     0x00000000000019e8       0x1f ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x121 (size before relaxing)
+ .debug_str     0x0000000000001a07       0x50 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x2d1 (size before relaxing)
+ .debug_str     0x0000000000001a57       0x30 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x198 (size before relaxing)
+ .debug_str     0x0000000000001a87       0x14 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x111 (size before relaxing)
+ .debug_str     0x0000000000001a9b       0x17 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x1cd (size before relaxing)
+ .debug_str     0x0000000000001ab2       0x3f ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                                        0x316 (size before relaxing)
+ .debug_str     0x0000000000001af1       0x30 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x13a (size before relaxing)
+ .debug_str     0x0000000000001b21       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x128 (size before relaxing)
+ .debug_str     0x0000000000001b41       0x1b ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                        0x127 (size before relaxing)
+ .debug_str     0x0000000000001b5c       0x3e c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+                                        0x186 (size before relaxing)
+ .debug_str     0x0000000000001b9a       0x52 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+                                        0x11a (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x2fce
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x4b2 obj/default/memtest_small.o
+ .debug_loc     0x00000000000004b2      0x125 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-printf.o)
+ .debug_loc     0x00000000000005d7      0x138 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putc.o)
+ .debug_loc     0x000000000000070f       0x6e c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-putchar.o)
+ .debug_loc     0x000000000000077d       0xb7 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-puts.o)
+ .debug_loc     0x0000000000000834       0x29 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x000000000000085d      0x3e5 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-strtol.o)
+ .debug_loc     0x0000000000000c42      0xb02 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+ .debug_loc     0x0000000000001744      0x19e c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_loc     0x00000000000018e2       0xde c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-writer.o)
+ .debug_loc     0x00000000000019c0      0x338 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mhw-mulx\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x0000000000001cf8       0x40 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_loc     0x0000000000001d38       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x0000000000001d58       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_loc     0x0000000000001d78      0x119 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_loc     0x0000000000001e91       0x61 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000000000001ef2       0xb5 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_loc     0x0000000000001fa7       0x7e ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x0000000000002025       0x42 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_modular_adc.o)
+ .debug_loc     0x0000000000002067      0xaf5 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)
+ .debug_loc     0x0000000000002b5c       0x60 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush.o)
+ .debug_loc     0x0000000000002bbc       0x1f ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x0000000000002bdb       0xec ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x0000000000002cc7       0x9e ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x0000000000002d65       0xba ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_loc     0x0000000000002e1f       0x52 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_loc     0x0000000000002e71       0x6f c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000000000002ee0       0xee c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-memcpy.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+                0x000000000f004000                __alt_data_end = 0xf004000
+                0x000000000f004000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x000000000f002d4c                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x000000000f002d4c                PROVIDE (__alt_heap_start, end)
+                0x000000000f004000                PROVIDE (__alt_heap_limit, 0xf004000)
+OUTPUT(sodalite_sdramtest.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x2e8
+ .debug_ranges  0x0000000000000000       0x20 ../sodalite_sdramtest_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x90 obj/default/memtest_small.o
+ .debug_ranges  0x00000000000000b0      0x188 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-vfprintf.o)
+ .debug_ranges  0x0000000000000238       0x18 c:/develop/altera/14.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-x86_64-mingw32/nios2-elf/lib/mhw-mulx\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_ranges  0x0000000000000250       0x48 ../sodalite_sdramtest_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x0000000000000298       0x20 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x00000000000002b8       0x30 ../sodalite_sdramtest_bsp/\libhal_bsp.a(altera_onchip_flash.o)

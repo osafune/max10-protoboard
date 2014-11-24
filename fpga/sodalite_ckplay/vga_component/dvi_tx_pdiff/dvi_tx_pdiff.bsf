@@ -1,0 +1,183 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 232 256)
+	(text "dvi_tx_pdiff" (rect 5 0 53 12)(font "Arial" ))
+	(text "inst" (rect 8 224 20 236)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "reset" (rect 0 0 20 12)(font "Arial" ))
+		(text "reset" (rect 21 27 41 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clk" (rect 0 0 10 12)(font "Arial" ))
+		(text "clk" (rect 21 43 31 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "clk_x5" (rect 0 0 25 12)(font "Arial" ))
+		(text "clk_x5" (rect 21 59 46 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "dvi_de" (rect 0 0 27 12)(font "Arial" ))
+		(text "dvi_de" (rect 21 75 48 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "dvi_blu[7..0]" (rect 0 0 48 12)(font "Arial" ))
+		(text "dvi_blu[7..0]" (rect 21 91 69 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "dvi_grn[7..0]" (rect 0 0 50 12)(font "Arial" ))
+		(text "dvi_grn[7..0]" (rect 21 107 71 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "dvi_red[7..0]" (rect 0 0 50 12)(font "Arial" ))
+		(text "dvi_red[7..0]" (rect 21 123 71 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "dvi_hsync" (rect 0 0 42 12)(font "Arial" ))
+		(text "dvi_hsync" (rect 21 139 63 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "dvi_vsync" (rect 0 0 43 12)(font "Arial" ))
+		(text "dvi_vsync" (rect 21 155 64 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "dvi_ctl[3..0]" (rect 0 0 46 12)(font "Arial" ))
+		(text "dvi_ctl[3..0]" (rect 21 171 67 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "test_data0[9..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "test_data0[9..0]" (rect 134 27 195 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(port
+		(pt 216 48)
+		(output)
+		(text "test_data1[9..0]" (rect 0 0 60 12)(font "Arial" ))
+		(text "test_data1[9..0]" (rect 135 43 195 55)(font "Arial" ))
+		(line (pt 216 48)(pt 200 48)(line_width 3))
+	)
+	(port
+		(pt 216 64)
+		(output)
+		(text "test_data2[9..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "test_data2[9..0]" (rect 134 59 195 71)(font "Arial" ))
+		(line (pt 216 64)(pt 200 64)(line_width 3))
+	)
+	(port
+		(pt 216 80)
+		(output)
+		(text "data0_p" (rect 0 0 31 12)(font "Arial" ))
+		(text "data0_p" (rect 164 75 195 87)(font "Arial" ))
+		(line (pt 216 80)(pt 200 80)(line_width 1))
+	)
+	(port
+		(pt 216 96)
+		(output)
+		(text "data0_n" (rect 0 0 31 12)(font "Arial" ))
+		(text "data0_n" (rect 164 91 195 103)(font "Arial" ))
+		(line (pt 216 96)(pt 200 96)(line_width 1))
+	)
+	(port
+		(pt 216 112)
+		(output)
+		(text "data1_p" (rect 0 0 30 12)(font "Arial" ))
+		(text "data1_p" (rect 165 107 195 119)(font "Arial" ))
+		(line (pt 216 112)(pt 200 112)(line_width 1))
+	)
+	(port
+		(pt 216 128)
+		(output)
+		(text "data1_n" (rect 0 0 30 12)(font "Arial" ))
+		(text "data1_n" (rect 165 123 195 135)(font "Arial" ))
+		(line (pt 216 128)(pt 200 128)(line_width 1))
+	)
+	(port
+		(pt 216 144)
+		(output)
+		(text "data2_p" (rect 0 0 31 12)(font "Arial" ))
+		(text "data2_p" (rect 164 139 195 151)(font "Arial" ))
+		(line (pt 216 144)(pt 200 144)(line_width 1))
+	)
+	(port
+		(pt 216 160)
+		(output)
+		(text "data2_n" (rect 0 0 31 12)(font "Arial" ))
+		(text "data2_n" (rect 164 155 195 167)(font "Arial" ))
+		(line (pt 216 160)(pt 200 160)(line_width 1))
+	)
+	(port
+		(pt 216 176)
+		(output)
+		(text "clock_p" (rect 0 0 30 12)(font "Arial" ))
+		(text "clock_p" (rect 165 171 195 183)(font "Arial" ))
+		(line (pt 216 176)(pt 200 176)(line_width 1))
+	)
+	(port
+		(pt 216 192)
+		(output)
+		(text "clock_n" (rect 0 0 30 12)(font "Arial" ))
+		(text "clock_n" (rect 165 187 195 199)(font "Arial" ))
+		(line (pt 216 192)(pt 200 192)(line_width 1))
+	)
+	(parameter
+		"RESET_LEVEL"
+		"'1'"
+		""
+		(type "PARAMETER_ENUM")	)
+	(drawing
+		(rectangle (rect 16 16 200 224)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 232 -64 332 16))
+)
