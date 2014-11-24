@@ -1,43 +1,39 @@
-SODALITE
-========
+#SODALITE
+------------------------------------------------------------------------
 
-SODALITE(ƒ\[ƒ_ƒ‰ƒCƒgj‚ÍAltera MAX10ƒfƒoƒCƒX‚ð“‹Ú‚µ‚½DIPŒ`ó‚Ìƒvƒƒgƒ^ƒCƒsƒ“ƒOŒü‚¯FPGAƒ{[ƒh‚Å‚·B
+SODALITE(ã‚½ãƒ¼ãƒ€ãƒ©ã‚¤ãƒˆï¼‰ã¯Altera MAX10ãƒ‡ãƒã‚¤ã‚¹ã‚’æ­è¼‰ã—ãŸDIPå½¢çŠ¶ã®ãƒ—ãƒ­ãƒˆã‚¿ã‚¤ãƒ”ãƒ³ã‚°å‘ã‘FPGAãƒœãƒ¼ãƒ‰ã§ã™ã€‚
 
 
-Overview
-========
+##Overview
 
 ![SODALITE TOPVIEW](https://lh3.googleusercontent.com/-e6P0SKS46Xc/VHNEk6tXomI/AAAAAAAAHHw/hiFEVjnDsTw/w379-h380-no/sodalite_topview.png)
 
-- 1100mil•40ƒsƒ“DIPŒ`ó
-- 8kLE‚ÌMAX10ƒfƒoƒCƒX“‹Ú(10M08SAE144C8GES)
-- 256MbitSDRAM“‹Ú
-- 3Ží—Þ‚ÌŽü”g”‚ð‘I‘ð‚Å‚«‚éƒIƒ“ƒ{[ƒhOSC
-- Å‘å34–{‚ÌPIOAƒAƒiƒƒO“ü—Í6–{ALVDS·“®ƒyƒA8ƒ`ƒƒƒlƒ‹
-- ƒIƒ“ƒ{[ƒh‚Éƒ†[ƒU[LED
-- 3.3V’Pˆê“dŒ¹‹ì“®
-- ADC—pVREF/REFGND‚¨‚æ‚ÑVIOŠO•”“ü—Íƒsƒ“‚ ‚è
-- ƒfƒ…ƒAƒ‹ƒRƒ“ƒtƒBƒOƒŒ[ƒVƒ‡ƒ“‘Î‰ž
+- 1100milå¹…40ãƒ”ãƒ³DIPå½¢çŠ¶
+- 8kLEã®MAX10ãƒ‡ãƒã‚¤ã‚¹æ­è¼‰(10M08SAE144C8GES)
+- 256MbitSDRAMæ­è¼‰
+- 3ç¨®é¡žã®å‘¨æ³¢æ•°ã‚’é¸æŠžã§ãã‚‹ã‚ªãƒ³ãƒœãƒ¼ãƒ‰OSC
+- æœ€å¤§34æœ¬ã®PIOã€ã‚¢ãƒŠãƒ­ã‚°å…¥åŠ›6æœ¬ã€LVDSå·®å‹•ãƒšã‚¢8ãƒãƒ£ãƒãƒ«
+- ã‚ªãƒ³ãƒœãƒ¼ãƒ‰ã«ãƒ¦ãƒ¼ã‚¶ãƒ¼LED
+- 3.3Vå˜ä¸€é›»æºé§†å‹•
+- ADCç”¨VREF/REFGNDãŠã‚ˆã³VIOå¤–éƒ¨å…¥åŠ›ãƒ”ãƒ³ã‚ã‚Š
+- ãƒ‡ãƒ¥ã‚¢ãƒ«ã‚³ãƒ³ãƒ•ã‚£ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³å¯¾å¿œ
 
 
-ƒuƒƒbƒN}
-----------
+###ãƒ–ãƒ­ãƒƒã‚¯å›³
 
 ![SODALITE Blockdiagram](https://lh4.googleusercontent.com/-9MY5agBSNxU/VHNElCTIsCI/AAAAAAAAHH0/HBXVVxgH8Xo/w619-h447-no/sodalite_block.png)
 
 
 
-ƒsƒ“ƒAƒTƒCƒ“
-============
+##ãƒ”ãƒ³ã‚¢ã‚µã‚¤ãƒ³
 
-ƒvƒƒgƒ^ƒCƒsƒ“ƒOƒRƒlƒNƒ^
-------------------------
+###ãƒ—ãƒ­ãƒˆã‚¿ã‚¤ãƒ”ãƒ³ã‚°ã‚³ãƒã‚¯ã‚¿
 
-|”Ô†|FPGAƒsƒ“|“à—e|
+|ç•ªå·|FPGAãƒ”ãƒ³|å†…å®¹|
 |---|---|---|
 |1|PIN_28|PIO0/CLK_n|
 |2|PIN_29|PIO1/CLK_p|
-|3| |VCCIO“ü—Í|
+|3| |VCCIOå…¥åŠ›|
 |4|PIN_38|PIO2/LVDS0_n|
 |5|PIN_39|PIO3/LVDS0_p|
 |6|PIN_41|PIO4/LVDS1_n|
@@ -66,27 +62,26 @@ Overview
 |29|PIN_131|PIO25|
 |30|PIN_132|PIO26|
 |31|PIN_134|PIO27|
-|32| |ADC REFGND(GND‚ÉÚ‘±)|
+|32| |ADC REFGND(GNDã«æŽ¥ç¶š)|
 |33|PIN_6|AIN1/PIO28|
 |34|PIN_7|AIN2/PIO29|
 |35|PIN_8|AIN3/PIO30|
 |36|PIN_10|AIN4/PIO31|
 |37|PIN_11|AIN5/PIO32|
 |38|PIN_12|AIN6/PIO33|
-|39| |ADC VREF(–¢Žg—pŽž‚Í‰ð•ú‚Ü‚½‚ÍREFGND‚ÉÚ‘±)|
-|40| |3.3V“dŒ¹|
+|39| |ADC VREF(æœªä½¿ç”¨æ™‚ã¯è§£æ”¾ã¾ãŸã¯REFGNDã«æŽ¥ç¶š)|
+|40| |3.3Vé›»æº|
 
-- LVDSŽg—pŽž‚É‚Í3”Ôƒsƒ“(VCCIO“ü—Í)‚É‚Í2.5V‚ð‰Á‚¦‚éB
-- 3.3V-LVTTL‚Ü‚½‚Í3.3V-CMOSŽg—pŽž‚É‚Í3”Ôƒsƒ“‚É‚Í3.3V‚ð‰Á‚¦‚éB
-- 3.0V-CMOSŽg—pŽž‚É‚Í3”Ôƒsƒ“‚É‚Í3.0V‚ð‰Á‚¦‚éB
-- ADC‚ÉŠO•”ƒŠƒtƒ@ƒŒƒ“ƒX“dŒ¹‚ð‹Ÿ‹‹‚µ‚ÄŽg‚¤ê‡‚É‚Í39”Ôƒsƒ“‚ÉƒŠƒtƒ@ƒŒƒ“ƒX“dˆ³‚ð‰Á‚¦‚éB
-- 26”Ôƒsƒ“‚Íƒu[ƒgŽž‚ÍBOOT_SELƒsƒ“‚Æ‚µ‚Ä“®ì‚·‚éB‚Ü‚½ƒ{[ƒh“à‚Å10kƒ¶‚Å3.3V‚Öƒvƒ‹ƒAƒbƒv‚³‚ê‚Ä‚¢‚é‚½‚ßI/Oƒsƒ“‚Æ‚µ‚ÄŽg‚¤ê‡‚É‚Í’ˆÓ‚·‚é‚±‚ÆB
+- LVDSä½¿ç”¨æ™‚ã«ã¯3ç•ªãƒ”ãƒ³(VCCIOå…¥åŠ›)ã«ã¯2.5Vã‚’åŠ ãˆã‚‹ã€‚
+- 3.3V-LVTTLã¾ãŸã¯3.3V-CMOSä½¿ç”¨æ™‚ã«ã¯3ç•ªãƒ”ãƒ³ã«ã¯3.3Vã‚’åŠ ãˆã‚‹ã€‚
+- 3.0V-CMOSä½¿ç”¨æ™‚ã«ã¯3ç•ªãƒ”ãƒ³ã«ã¯3.0Vã‚’åŠ ãˆã‚‹ã€‚
+- ADCã«å¤–éƒ¨ãƒªãƒ•ã‚¡ãƒ¬ãƒ³ã‚¹é›»æºã‚’ä¾›çµ¦ã—ã¦ä½¿ã†å ´åˆã«ã¯39ç•ªãƒ”ãƒ³ã«ãƒªãƒ•ã‚¡ãƒ¬ãƒ³ã‚¹é›»åœ§ã‚’åŠ ãˆã‚‹ã€‚
+- 26ç•ªãƒ”ãƒ³ã¯ãƒ–ãƒ¼ãƒˆæ™‚ã¯BOOT_SELãƒ”ãƒ³ã¨ã—ã¦å‹•ä½œã™ã‚‹ã€‚ã¾ãŸãƒœãƒ¼ãƒ‰å†…ã§10kÎ©ã§3.3Vã¸ãƒ—ãƒ«ã‚¢ãƒƒãƒ—ã•ã‚Œã¦ã„ã‚‹ãŸã‚I/Oãƒ”ãƒ³ã¨ã—ã¦ä½¿ã†å ´åˆã«ã¯æ³¨æ„ã™ã‚‹ã“ã¨ã€‚
 
 
-JTAGƒRƒlƒNƒ^
-------------
+###JTAGã‚³ãƒã‚¯ã‚¿
 
-|”Ô†|FPGAƒsƒ“|“à—e|
+|ç•ªå·|FPGAãƒ”ãƒ³|å†…å®¹|
 |---|---|---|
 |1|PIN_18|TCK|
 |2| |GND|
@@ -99,20 +94,18 @@ JTAGƒRƒlƒNƒ^
 |9|PIN_19|TDI|
 |10| |GND|
 
-- TDI,TMS,JTAG_EN‚Í10kƒ¶‚Å3.3V‚Öƒvƒ‹ƒAƒbƒv‚³‚ê‚Ä‚¢‚éB
-- TCK‚Í1kƒ¶‚ÅGND‚Öƒvƒ‹ƒ_ƒEƒ“‚³‚ê‚Ä‚¢‚éB
+- TDI,TMS,JTAG_ENã¯10kÎ©ã§3.3Vã¸ãƒ—ãƒ«ã‚¢ãƒƒãƒ—ã•ã‚Œã¦ã„ã‚‹ã€‚
+- TCKã¯1kÎ©ã§GNDã¸ãƒ—ãƒ«ãƒ€ã‚¦ãƒ³ã•ã‚Œã¦ã„ã‚‹ã€‚
 
 
 
-‰ñ˜H}
-======
+##å›žè·¯å›³
 
-‰ñ˜H}‚¨‚æ‚ÑƒvƒƒWƒFƒNƒg‚ÌƒTƒ“ƒvƒ‹‚ÍƒŠƒ|ƒWƒgƒŠ‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
-
+å›žè·¯å›³ãŠã‚ˆã³ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã®ã‚µãƒ³ãƒ—ãƒ«ã¯ãƒªãƒã‚¸ãƒˆãƒªã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚
 
 
-ƒ‰ƒCƒZƒ“ƒX
-=========
+
+##ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
 
 SODALITE Hardware is released under the [Creative Commons,CC BY 2.1 JP](http://creativecommons.org/licenses/by/2.1/jp/legalcode)  
 ![CC BY](http://creativecommons.jp/wp/wp-content/uploads/2009/10/by.png)  
