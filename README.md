@@ -101,6 +101,79 @@ SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形�
 - TDI,TMS,JTAG_ENは10kΩで3.3Vへプルアップされている。
 - TCKは1kΩでGNDへプルダウンされている。
 
+SODALITE v1.0ではES品のデバイスを搭載しています。
+ES品はUSB-Blaster Rev.BおよびRev.Cの動作に不具合があることが報告されています。
+詳しくはALTERAのWebサイトで最新のエラッタを確認してください。
+
+SODALITEにてJTAGの不具合が発生した場合は、TCK/TDO/TMSの信号ラインに74HCバッファを挿入することで安定する場合があります。
+
+
+###オンボードOSC
+
+|信号名|FPGAピン|方向|内容|
+|---|---|---|---|
+|FREQ_SEL|PIN_26|O|周波数選択|
+|CLKIN|PIN_27|I|クロック入力|
+
+オンボードOSCは50.000MHz/24.576MHz/74.25MHzの３種類をFREQ_SELピンの状態で選択できます。
+|FREQ_SEL出力|OSC発振周波数|
+|---|---|
+|H|50.000MHz|
+|L|74.250MHz|
+|Hi-Z|24.576MHz|
+
+
+###SDRAM
+
+|信号名|FPGAピン|方向|内容|
+|---|---|---|---|
+|SDR_A0|PIN_77|O|アドレス|
+|SDR_A1|PIN_76|O|アドレス|
+|SDR_A2|PIN_75|O|アドレス|
+|SDR_A3|PIN_74|O|アドレス|
+|SDR_A4|PIN_69|O|アドレス|
+|SDR_A5|PIN_70|O|アドレス|
+|SDR_A6|PIN_66|O|アドレス|
+|SDR_A7|PIN_65|O|アドレス|
+|SDR_A8|PIN_64|O|アドレス|
+|SDR_A9|PIN_62|O|アドレス|
+|SDR_A10|PIN_78|O|アドレス、オートプリチャージ指示|
+|SDR_A11|PIN_61|O|アドレス|
+|SDR_A12|PIN_87|O|アドレス|
+|SDR_BA0|PIN_80|O|バンクアドレス|
+|SDR_BA1|PIN_79|O|バンクアドレス|
+|SDR_CS_N|PIN_81|O|チップセレクト|
+|SDR_RAS_N|PIN_84|O|ロウアクティブ指示|
+|SDR_CAS_N|PIN_85|O|カラムアクティブ指示|
+|SDR_WE_N|PIN_86|O|ライトイネーブル指示|
+|SDR_CLK|PIN_89|O|クロック出力|
+|SDR_CLE|PIN_88|O|クロックイネーブル|
+|SDR_DQM0|PIN_96|O|下位バイトデータイネーブル|
+|SDR_DQM1|PIN_90|O|上位バイトデータイネーブル|
+|SDR_DQ0|PIN_106|I/O|データ|
+|SDR_DQ1|PIN_105|I/O|データ|
+|SDR_DQ2|PIN_102|I/O|データ|
+|SDR_DQ3|PIN_101|I/O|データ|
+|SDR_DQ4|PIN_100|I/O|データ|
+|SDR_DQ5|PIN_99|I/O|データ|
+|SDR_DQ6|PIN_98|I/O|データ|
+|SDR_DQ7|PIN_97|I/O|データ|
+|SDR_DQ8|PIN_91|I/O|データ|
+|SDR_DQ9|PIN_92|I/O|データ|
+|SDR_DQ10|PIN_93|I/O|データ|
+|SDR_DQ11|PIN_110|I/O|データ|
+|SDR_DQ12|PIN_111|I/O|データ|
+|SDR_DQ13|PIN_113|I/O|データ|
+|SDR_DQ14|PIN_114|I/O|データ|
+|SDR_DQ15|PIN_118|I/O|データ|
+
+
+###LED
+
+|信号名|FPGAピン|方向|内容|
+|---|---|---|---|
+|LED|PIN_135|O|'H'で点灯|
+
 
 ##電気特性
 
