@@ -6,8 +6,6 @@ SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形�
 
 
 ------------------------------------------------------------------------
-
-
 ##Overview
 
 ![SODALITE TOPVIEW](https://lh3.googleusercontent.com/-e6P0SKS46Xc/VHNEk6tXomI/AAAAAAAAHHw/hiFEVjnDsTw/w379-h380-no/sodalite_topview.png)
@@ -28,7 +26,7 @@ SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形�
 ![SODALITE Blockdiagram](https://lh4.googleusercontent.com/-9MY5agBSNxU/VHNElCTIsCI/AAAAAAAAHH0/HBXVVxgH8Xo/w619-h447-no/sodalite_block.png)
 
 
-
+------------------------------------------------------------------------
 ##ピンアサイン
 
 ###プロトタイピングコネクタ
@@ -115,7 +113,9 @@ SODALITEにてJTAGの不具合が発生した場合は、TCK/TDO/TMSの信号ラ
 |FREQ_SEL|PIN_26|O|周波数選択|
 |CLKIN|PIN_27|I|クロック入力|
 
+
 オンボードOSCは50.000MHz/24.576MHz/74.25MHzの３種類をFREQ_SELピンの状態で選択できます。
+
 |FREQ_SEL出力|OSC発振周波数|
 |---|---|
 |H|50.000MHz|
@@ -175,6 +175,7 @@ SODALITEにてJTAGの不具合が発生した場合は、TCK/TDO/TMSの信号ラ
 |LED|PIN_135|O|'H'で点灯|
 
 
+------------------------------------------------------------------------
 ##電気特性
 
 |項目|内容|
@@ -191,12 +192,13 @@ SODALITEにてJTAGの不具合が発生した場合は、TCK/TDO/TMSの信号ラ
 - I/Oピン定格はMAX10デバイスの仕様に基づく。
 
 
+------------------------------------------------------------------------
 ##回路図
 
 回路図およびプロジェクトのサンプルはリポジトリを参照してください。
 
 
-
+------------------------------------------------------------------------
 ##ライセンス
 
 SODALITE Hardware is released under the [Creative Commons,CC BY 2.1 JP](http://creativecommons.org/licenses/by/2.1/jp/legalcode)  
