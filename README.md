@@ -1,6 +1,8 @@
 #SODALITE
 
-SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形状のプロトタイピング向けFPGAボードです。
+![Japanese document(日本語の説明)](https://github.com/osafune/sodalite/blob/master/README-jp.md)
+
+"SODALITE" is a FPGA board for prototyping with the DIP shape equipped with Altera MAX10 device.
 
 ![SODALITE](https://lh3.googleusercontent.com/-fBGcmyD2sEY/VHNSUxrROWI/AAAAAAAAHIY/pMdg5tDgemA/w619-h464-no/DSC_0340.JPG)
 
@@ -10,28 +12,28 @@ SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形�
 
 ![SODALITE TOPVIEW](https://lh3.googleusercontent.com/-e6P0SKS46Xc/VHNEk6tXomI/AAAAAAAAHHw/hiFEVjnDsTw/w379-h380-no/sodalite_topview.png)
 
-- 1100mil幅40ピンDIP形状
-- 8kLEのMAX10デバイス搭載(10M08SAE144C8GES)
-- 256MbitSDRAM搭載
-- 3種類の周波数を選択できるオンボードOSC
-- 最大34本のPIO、アナログ入力6本、LVDS差動ペア8チャネル
-- オンボードにユーザーLED
-- 3.3V単一電源駆動
-- ADC用VREF/REFGNDおよびVIO外部入力ピンあり
-- デュアルコンフィグレーション対応
+- 40 pin DIP shape of the 1100mil width
+- MAX10 device loading of 8kLE (10M08SAE144C8GES)
+- On-board with 256MbitSDRAM
+- On-board OSC which can choose 3 kinds of frequency
+- Most 34 of PIO, 6 of analog input and 8 channels of LVDS differential pair
+- On-board with a user LED
+- A driven 3.3V single power supply
+- With VREF for ADC/REFGND and a VIO external input pin
+- A dual configuration is supported.
 
 
-###ブロック図
+###Blockdiagram
 
 ![SODALITE Blockdiagram](https://lh4.googleusercontent.com/-9MY5agBSNxU/VHNElCTIsCI/AAAAAAAAHH0/HBXVVxgH8Xo/w619-h447-no/sodalite_block.png)
 
 
 ------------------------------------------------------------------------
-##ピンアサイン
+##Pin assignment
 
-###プロトタイピングコネクタ
+###Prototyping connector
 
-|番号|FPGAピン|内容|
+|Number|FPGA pin|contents|
 |---|---|---|
 |1|PIN_28|PIO0/CLK_n|
 |2|PIN_29|PIO1/CLK_p|
@@ -64,26 +66,26 @@ SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形�
 |29|PIN_131|PIO25|
 |30|PIN_132|PIO26|
 |31|PIN_134|PIO27|
-|32| |ADC REFGND(GNDに接続)|
+|32| |ADC REFGND(connected to GND)|
 |33|PIN_6|AIN1/PIO28|
 |34|PIN_7|AIN2/PIO29|
 |35|PIN_8|AIN3/PIO30|
 |36|PIN_10|AIN4/PIO31|
 |37|PIN_11|AIN5/PIO32|
 |38|PIN_12|AIN6/PIO33|
-|39| |ADC VREF(未使用時は解放またはREFGNDに接続)|
-|40| |3.3V電源|
+|39| |ADC VREF(When unused, Open or connect to REFGND)|
+|40| |3.3V power supply|
 
-- LVDS使用時には3番ピン(VCCIO入力)には2.5Vを加える。
-- 3.3V-LVTTLまたは3.3V-CMOS使用時には3番ピンには3.3Vを加える。
-- 3.0V-CMOS使用時には3番ピンには3.0Vを加える。
-- ADCに外部リファレンス電源を供給して使う場合には39番ピンにリファレンス電圧を加える。
-- 26番ピンはブート時はBOOT_SELピンとして動作する。またボード内で10kΩで3.3VへプルアップされているためI/Oピンとして使う場合には注意すること。
+- When LVDS use, 2.5V is added to a pin number 3(VCCIO input).
+- When 3.3V-LVTTL or 3.3V-CMOS use, 3.3V is added to a pin number 3(VCCIO input).
+- When 3.0V-CMOS use, 3.0V is added to a pin number 3(VCCIO input).
+- When supplying the outside reference power supply to ADC and using it, the reference voltage is added to a pin number 39(ADC VREF input).
+- The time of a boot moves as BOOT_SEL pin for a pin number 26. When using it as I/O pin because a pull-up to 3.3V by 10k-Ohm in the board again, be careful.
 
 
-###JTAGコネクタ
+###JTAG connector
 
-|番号|FPGAピン|内容|
+|Number|FPGA pin|contents|
 |---|---|---|
 |1|PIN_18|TCK|
 |2| |GND|
@@ -96,27 +98,24 @@ SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形�
 |9|PIN_19|TDI|
 |10| |GND|
 
-- TDI,TMS,JTAG_ENは10kΩで3.3Vへプルアップされている。
-- TCKは1kΩでGNDへプルダウンされている。
+- TDI,TMS,JTAG_EN a pull-up to 3.3V by 10k-Ohm.
+- TCK a pull-down to GND by 1k-Ohm.
 
-SODALITE v1.0ではES品のデバイスを搭載しています。
-ES品はUSB-Blaster Rev.BおよびRev.Cの動作に不具合があることが報告されています。
-詳しくはALTERAのWebサイトで最新のエラッタを確認してください。
-
-SODALITEにてJTAGの不具合が発生した場合は、TCK/TDO/TMSの信号ラインに74HCバッファを挿入することで安定する場合があります。
+* It's equipped with a device of ES items in SODALITE v1.0.
+* When a defect of JTAG occurred in SODALITE, it sometimes becomes stable by inserting 74HC buffer in a signal line of TCK/TDO/TMS.
+* Please check the latest errata on the Web site of ALTERA for more information.
 
 
-###オンボードOSC
+###Onboard-OSC
 
-|信号名|FPGAピン|方向|内容|
+|Signal|FPGA pin|Dir|contets|
 |---|---|---|---|
-|FREQ_SEL|PIN_26|O|周波数選択|
-|CLKIN|PIN_27|I|クロック入力|
+|FREQ_SEL|PIN_26|O|Frequency select|
+|CLKIN|PIN_27|I|Clock input|
 
+On-board OSC can choose 3 kinds of 50.000 MHz/24.576 MHz/74.25 MHz in the state of the FREQ_SEL pin.
 
-オンボードOSCは50.000MHz/24.576MHz/74.25MHzの３種類をFREQ_SELピンの状態で選択できます。
-
-|FREQ_SEL出力|OSC発振周波数|
+|FREQ_SEL output|OSC Frequency|
 |---|---|
 |H|50.000MHz|
 |L|74.250MHz|
@@ -125,82 +124,82 @@ SODALITEにてJTAGの不具合が発生した場合は、TCK/TDO/TMSの信号ラ
 
 ###SDRAM
 
-|信号名|FPGAピン|方向|内容|
+|Signal|FPGA pin|Dir|contets|
 |---|---|---|---|
-|SDR_A0|PIN_77|O|アドレス|
-|SDR_A1|PIN_76|O|アドレス|
-|SDR_A2|PIN_75|O|アドレス|
-|SDR_A3|PIN_74|O|アドレス|
-|SDR_A4|PIN_69|O|アドレス|
-|SDR_A5|PIN_70|O|アドレス|
-|SDR_A6|PIN_66|O|アドレス|
-|SDR_A7|PIN_65|O|アドレス|
-|SDR_A8|PIN_64|O|アドレス|
-|SDR_A9|PIN_62|O|アドレス|
-|SDR_A10|PIN_78|O|アドレス、オートプリチャージ指示|
-|SDR_A11|PIN_61|O|アドレス|
-|SDR_A12|PIN_87|O|アドレス|
-|SDR_BA0|PIN_80|O|バンクアドレス|
-|SDR_BA1|PIN_79|O|バンクアドレス|
-|SDR_CS_N|PIN_81|O|チップセレクト|
-|SDR_RAS_N|PIN_84|O|ロウアクティブ指示|
-|SDR_CAS_N|PIN_85|O|カラムアクティブ指示|
-|SDR_WE_N|PIN_86|O|ライトイネーブル指示|
-|SDR_CLK|PIN_89|O|クロック出力|
-|SDR_CLE|PIN_88|O|クロックイネーブル|
-|SDR_DQM0|PIN_96|O|下位バイトデータイネーブル|
-|SDR_DQM1|PIN_90|O|上位バイトデータイネーブル|
-|SDR_DQ0|PIN_106|I/O|データ|
-|SDR_DQ1|PIN_105|I/O|データ|
-|SDR_DQ2|PIN_102|I/O|データ|
-|SDR_DQ3|PIN_101|I/O|データ|
-|SDR_DQ4|PIN_100|I/O|データ|
-|SDR_DQ5|PIN_99|I/O|データ|
-|SDR_DQ6|PIN_98|I/O|データ|
-|SDR_DQ7|PIN_97|I/O|データ|
-|SDR_DQ8|PIN_91|I/O|データ|
-|SDR_DQ9|PIN_92|I/O|データ|
-|SDR_DQ10|PIN_93|I/O|データ|
-|SDR_DQ11|PIN_110|I/O|データ|
-|SDR_DQ12|PIN_111|I/O|データ|
-|SDR_DQ13|PIN_113|I/O|データ|
-|SDR_DQ14|PIN_114|I/O|データ|
-|SDR_DQ15|PIN_118|I/O|データ|
+|SDR_A0|PIN_77|O|address|
+|SDR_A1|PIN_76|O|address|
+|SDR_A2|PIN_75|O|address|
+|SDR_A3|PIN_74|O|address|
+|SDR_A4|PIN_69|O|address|
+|SDR_A5|PIN_70|O|address|
+|SDR_A6|PIN_66|O|address|
+|SDR_A7|PIN_65|O|address|
+|SDR_A8|PIN_64|O|address|
+|SDR_A9|PIN_62|O|address|
+|SDR_A10|PIN_78|O|address and Auto Pre-charge|
+|SDR_A11|PIN_61|O|address|
+|SDR_A12|PIN_87|O|address|
+|SDR_BA0|PIN_80|O|bank-address|
+|SDR_BA1|PIN_79|O|bank-address|
+|SDR_CS_N|PIN_81|O|Chip select|
+|SDR_RAS_N|PIN_84|O|Row active|
+|SDR_CAS_N|PIN_85|O|Column active|
+|SDR_WE_N|PIN_86|O|Write enable|
+|SDR_CLK|PIN_89|O|Clock output|
+|SDR_CLE|PIN_88|O|Clock enable|
+|SDR_DQM0|PIN_96|O|Lower-byte data enable|
+|SDR_DQM1|PIN_90|O|Upper-byte data enable|
+|SDR_DQ0|PIN_106|I/O|data|
+|SDR_DQ1|PIN_105|I/O|data|
+|SDR_DQ2|PIN_102|I/O|data|
+|SDR_DQ3|PIN_101|I/O|data|
+|SDR_DQ4|PIN_100|I/O|data|
+|SDR_DQ5|PIN_99|I/O|data|
+|SDR_DQ6|PIN_98|I/O|data|
+|SDR_DQ7|PIN_97|I/O|data|
+|SDR_DQ8|PIN_91|I/O|data|
+|SDR_DQ9|PIN_92|I/O|data|
+|SDR_DQ10|PIN_93|I/O|data|
+|SDR_DQ11|PIN_110|I/O|data|
+|SDR_DQ12|PIN_111|I/O|data|
+|SDR_DQ13|PIN_113|I/O|data|
+|SDR_DQ14|PIN_114|I/O|data|
+|SDR_DQ15|PIN_118|I/O|data|
 
 
 ###LED
 
-|信号名|FPGAピン|方向|内容|
+|Signal|FPGA pin|Dir|contents|
 |---|---|---|---|
-|LED|PIN_135|O|'H'で点灯|
+|LED|PIN_135|O|lights up by 'H'|
 
 
 ------------------------------------------------------------------------
-##電気特性
+##Electrical characteristics
 
-|項目|内容|
+|Item|contents|
 |---|---|
-|電源電圧|3.3V±5%|
-|VCCIO電圧|3.3V、3.0V、2.5V、1.8V、1.5V|
-|ADC VREF電圧|2.5V|
-|消費電流|250mA(100MHz動作時の代表値)|
-|I/Oピン定格|±8mA|
+|Voltage|3.3V +/-5%|
+|VCCIO Voltage|3.3V, 3.0V, 2.5V|
+|ADC VREF Voltage|2.5V +/-5%|
+|Op. Current|250mA(Typical value of 100MHz driven)|
+|I/O rating|+/-8mA(max)|
 
-- VCCIO電圧の各値はMAX10のI/O規格に準ずる。
-- ADC VREF電圧は外部リファレンス電圧使用時の値。
-- 消費電流はリソース使用率85%、100MHz駆動、SDRAM動作時の値。
-- I/Oピン定格はMAX10デバイスの仕様に基づく。
-
-
-------------------------------------------------------------------------
-##回路図
-
-回路図およびプロジェクトのサンプルはリポジトリを参照してください。
+- A VCCIO voltage is proportionate to the I/O standard of MAX10.
+- A ADC VREF voltage is at the time of the outside reference voltage use.
+- A consumption current is at the time of resource usage rate 85%, 100MHz drive and SDRAM movement.
+- The I/O pin rating is based on the specification of MAX10 device.
 
 
 ------------------------------------------------------------------------
-##ライセンス
+##Schematic
 
-SODALITE Hardware is released under the [Creative Commons,CC BY 2.1 JP](http://creativecommons.org/licenses/by/2.1/jp/legalcode)  
-![CC BY](http://creativecommons.jp/wp/wp-content/uploads/2009/10/by.png)  
+Refer to a repository for a schematic and a sample of a project.
+
+
+------------------------------------------------------------------------
+##License
+
+SODALITE Hardware is released under the [Creative Commons,CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+![CC BY](https://licensebuttons.net/l/by/4.0/88x31.png)  
 
