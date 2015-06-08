@@ -37,7 +37,7 @@
 |---|---|---|
 |1|PIN_28|PIO0/CLK_n|
 |2|PIN_29|PIO1/CLK_p|
-|3| |VCCIO入力|
+|3| |VCCIO power supply|
 |4|PIN_38|PIO2/LVDS0_n|
 |5|PIN_39|PIO3/LVDS0_p|
 |6|PIN_41|PIO4/LVDS1_n|
