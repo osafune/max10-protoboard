@@ -12,14 +12,14 @@
 
 ![SODALITE TOPVIEW](https://lh3.googleusercontent.com/-e6P0SKS46Xc/VHNEk6tXomI/AAAAAAAAHHw/hiFEVjnDsTw/w379-h380-no/sodalite_topview.png)
 
-- 40 pin DIP shape of the 1100mil width
-- MAX10 device loading of 8kLE (10M08SAE144C8GES)
-- On-board with 256MbitSDRAM
-- On-board OSC which can choose 3 kinds of frequency
+- 40 pin DIP shape of the 1100mil width.
+- MAX10 device loading of 8kLE (10M08SAE144C8GES).
+- On-board with 256MbitSDRAM.
+- On-board OSC which can choose 3 kinds of frequency.
 - Most 34 of PIO, 6 of analog input and 8 channels of LVDS differential pair
-- On-board with a user LED
-- A driven 3.3V single power supply
-- With VREF for ADC/REFGND and a VIO external input pin
+- On-board with a user LED.
+- A driven 3.3V single power supply.
+- With VREF for ADC/REFGND and a VIO external input pin.
 - A dual configuration is supported.
 
 
@@ -101,9 +101,9 @@
 - TDI,TMS,JTAG_EN a pull-up to 3.3V by 10k-Ohm.
 - TCK a pull-down to GND by 1k-Ohm.
 
-* It's equipped with a device of ES items in SODALITE v1.0.
-* When a defect of JTAG occurred in SODALITE, it sometimes becomes stable by inserting 74HC buffer in a signal line of TCK/TDO/TMS.
-* Please check the latest errata on the Web site of ALTERA for more information.
+It's equipped with a device of ES items in SODALITE v1.0.
+When a defect of JTAG occurred in SODALITE, it sometimes becomes stable by inserting 74HC buffer in a signal line of TCK/TDO/TMS.
+Please check the latest errata on the Web site of ALTERA for more information.
 
 
 ###Onboard-OSC
