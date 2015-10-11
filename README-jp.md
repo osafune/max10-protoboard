@@ -1,8 +1,10 @@
 #SODALITE
 
 SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形状のプロトタイピング向けFPGAボードです。
+現在[PERIDOT CRAFTオンラインショップ](http://peridotcraft.buyshop.jp/items/2126662)で購入できます。
 
 ![SODALITE](https://lh3.googleusercontent.com/-fBGcmyD2sEY/VHNSUxrROWI/AAAAAAAAHIY/pMdg5tDgemA/w619-h464-no/DSC_0340.JPG)
+
 
 
 ------------------------------------------------------------------------
@@ -181,7 +183,7 @@ SODALITEにてJTAGの不具合が発生した場合は、TCK/TDO/TMSの信号ラ
 |項目|内容|
 |---|---|
 |電源電圧|3.3V±5%|
-|VCCIO電圧|3.3V、3.0V、2.5V、1.8V、1.5V|
+|VCCIO電圧|3.3V、3.0V、2.5V|
 |ADC VREF電圧|2.5V|
 |消費電流|250mA(100MHz動作時の代表値)|
 |I/Oピン定格|±8mA|
