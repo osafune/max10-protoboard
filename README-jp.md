@@ -1,7 +1,10 @@
 #SODALITE
 
+## ※製品化に伴い、このリポジトリのメンテナンスは終了します。
+
+------------------------------------------------------------------------
+
 SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形状のプロトタイピング向けFPGAボードです。
-現在[PERIDOT CRAFTオンラインショップ](http://peridotcraft.buyshop.jp/items/2126662)で購入できます。
 
 ![SODALITE](https://lh3.googleusercontent.com/-fBGcmyD2sEY/VHNSUxrROWI/AAAAAAAAHIY/pMdg5tDgemA/w619-h464-no/DSC_0340.JPG)
 

@@ -1,5 +1,9 @@
 #SODALITE
 
+## note: Maintenance of this repository has ended.
+
+------------------------------------------------------------------------
+
 [Japanese document(日本語の説明)](https://github.com/osafune/sodalite/blob/master/README-jp.md)
 
 "SODALITE" is a FPGA board for prototyping with the DIP shape equipped with Altera MAX10 device.
