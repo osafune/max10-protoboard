@@ -1,10 +1,10 @@
-#SODALITE
+#MAX10 PROTO-BOARD
 
 ## ※製品化に伴い、このリポジトリのメンテナンスは終了します。
 
 ------------------------------------------------------------------------
 
-SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形状のプロトタイピング向けFPGAボードです。
+このボードはAltera MAX10デバイスを搭載したDIP形状のプロトタイピング向けFPGAボードです。
 
 ![SODALITE](https://lh3.googleusercontent.com/-fBGcmyD2sEY/VHNSUxrROWI/AAAAAAAAHIY/pMdg5tDgemA/w619-h464-no/DSC_0340.JPG)
 
@@ -104,7 +104,7 @@ SODALITE(ソーダライト）はAltera MAX10デバイスを搭載したDIP形�
 - TDI,TMS,JTAG_ENは10kΩで3.3Vへプルアップされている。
 - TCKは1kΩでGNDへプルダウンされている。
 
-SODALITE v1.0ではES品のデバイスを搭載しています。
+本ボードではES品のデバイスを搭載しています。
 ES品はUSB-Blaster Rev.BおよびRev.Cの動作に不具合があることが報告されています。
 詳しくはALTERAのWebサイトで最新のエラッタを確認してください。
 
@@ -206,6 +206,6 @@ SODALITEにてJTAGの不具合が発生した場合は、TCK/TDO/TMSの信号ラ
 ------------------------------------------------------------------------
 ##ライセンス
 
-SODALITE Hardware is released under the [Creative Commons,CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+MAX10 PROTO-BOARD Hardware is released under the [Creative Commons,CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
 ![CC BY](https://licensebuttons.net/l/by/4.0/88x31.png)  
 

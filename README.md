@@ -1,4 +1,4 @@
-#SODALITE
+#MAX10 PROTO-BOARD
 
 ## note: Maintenance of this repository has ended.
 
@@ -6,7 +6,7 @@
 
 [Japanese document(日本語の説明)](https://github.com/osafune/sodalite/blob/master/README-jp.md)
 
-"SODALITE" is a FPGA board for prototyping with the DIP shape equipped with Altera MAX10 device.
+This is a FPGA board for prototyping with the DIP shape equipped with Altera MAX10 device.
 
 ![SODALITE](https://lh3.googleusercontent.com/-fBGcmyD2sEY/VHNSUxrROWI/AAAAAAAAHIY/pMdg5tDgemA/w619-h464-no/DSC_0340.JPG)
 
@@ -105,8 +105,8 @@
 - TDI,TMS,JTAG_EN a pull-up to 3.3V by 10k-Ohm.
 - TCK a pull-down to GND by 1k-Ohm.
 
-It's equipped with a device of ES items in SODALITE v1.0.
-When a defect of JTAG occurred in SODALITE, it sometimes becomes stable by inserting 74HC buffer in a signal line of TCK/TDO/TMS.
+It's equipped with a device of ES items.
+When a defect of JTAG occurred in board, it sometimes becomes stable by inserting 74HC buffer in a signal line of TCK/TDO/TMS.
 Please check the latest errata on the Web site of ALTERA for more information.
 
 
@@ -204,6 +204,6 @@ Refer to a repository for a schematic and a sample of a project.
 ------------------------------------------------------------------------
 ##License
 
-SODALITE Hardware is released under the [Creative Commons,CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+MAX10 PROTO-BOARD Hardware is released under the [Creative Commons,CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
 ![CC BY](https://licensebuttons.net/l/by/4.0/88x31.png)  
 
